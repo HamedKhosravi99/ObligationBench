@@ -1,0 +1,17 @@
+The ObligationBench-R data (the task files under data/, manifest.json, and the
+reference predictions) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: "ObligationBench-R, the benchmark of the paper 'PRIME: Precommitted
+Rules for Inference from Minimal Evidence in LLM-Based AI Agents' (authors
+withheld for double-anonymous review; to be named at publication)."
+
+The records embedded in the tasks remain subject to their sources' terms, listed
+in NOTICE.md: GitHub Advisory Database records are CC BY 4.0 and are redistributed
+with attribution; openFDA records are public domain (CC0 1.0); ClinicalTrials.gov
+and SEC EDGAR records are public U.S. government information used under those
+sites' terms. Nothing in this license grants rights the sources do not grant.
+
+The scoring code shipped with the data (the obligationbench/ package) is licensed
+under the MIT License; see the LICENSE file of the code repository.

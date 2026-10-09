@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "obligationbench"
+version = "1.0.0"
+description = "ObligationBench: evidence-based review tasks for LLM agents, with an executable scorer and the benchmark generator"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+keywords = ["benchmark", "llm-agents", "tool-use", "evaluation", "evidence"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+hf = ["datasets>=2.14", "huggingface_hub>=0.20"]
+dev = ["pytest>=7", "datasets>=2.14", "huggingface_hub>=0.20"]
+
+[project.scripts]
+obligationbench = "obligationbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+obligationbench = ["task_schema.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

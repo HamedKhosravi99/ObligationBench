@@ -1,0 +1,480 @@
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0012"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0014"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0016"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0018"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0020"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0021"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0022"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0023"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0024"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0025"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0026"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0027"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0028"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0029"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0030"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0042"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0044"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0046"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0048"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0050"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0051"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0052"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0053"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0054"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0055"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0056"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0057"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0058"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0059"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0060"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0072"}
+{"agent": "direct", "budget": "B20", "calls": 0, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0074"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0076"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0078"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0080"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0081"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0082"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0083"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0084"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0085"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0087"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0088"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0089"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0090"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0101"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0102"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0103"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0104"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0106"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0107"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0108"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0109"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0111"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0112"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0113"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0114"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0115"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0121"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0122"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0123"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0124"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0126"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0127"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0128"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0129"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0130"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0131"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "sec-v2-0132"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0133"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0134"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0135"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0141"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0142"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0143"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0144"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0145"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0146"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0147"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0148"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0149"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0150"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0151"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0152"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0153"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0154"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0155"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0159"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0160"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0161"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0162"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0163"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0164"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0165"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0166"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0167"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0168"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0169"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0170"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0171"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0172"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "sec-v2-0174"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0175"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0176"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0177"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0178"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0179"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0180"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0181"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0182"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0183"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0184"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0186"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0187"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0188"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0189"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0190"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0191"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0192"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "sec-v2-0193"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0194"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0012"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0014"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0016"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0018"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0020"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0021"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0022"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0023"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0024"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0026"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0027"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0028"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0029"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0030"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0042"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0046"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0048"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0050"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0051"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "cli-v2-0052"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0053"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0054"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0055"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0057"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0058"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0059"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0060"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0072"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0074"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "cli-v2-0076"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0080"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0081"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0083"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0084"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "cli-v2-0085"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0086"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0087"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0088"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0089"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0090"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0098"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0099"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0100"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0102"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0103"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0104"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0105"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0106"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0107"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0108"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0109"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0111"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0112"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0118"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0119"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0120"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0121"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0122"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0123"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0124"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0125"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0126"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0127"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0128"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0129"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0130"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0131"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0132"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0138"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0139"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0140"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0141"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0142"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0143"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0144"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0145"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0146"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0147"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0148"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0149"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "cli-v2-0150"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0151"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0152"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0155"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0156"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0157"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0159"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0160"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0161"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0162"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0163"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0164"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0165"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0166"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0167"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0168"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "cli-v2-0169"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0172"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0173"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0174"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0175"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0176"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0177"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0178"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0179"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0180"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "cli-v2-0181"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0182"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0183"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0184"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0185"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0186"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0187"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0188"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "cli-v2-0189"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "cli-v2-0190"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0191"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0192"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "cli-v2-0193"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "cli-v2-0194"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0012"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0078-2022", ""]], "stated": ["C2"], "task_id": "dru-v2-0014"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1099-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0016"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0790-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0018"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0020"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0021"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0022"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0758-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0023"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0024"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0025"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0755-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0026"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1558-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0027"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0382-2018", ""]], "stated": ["C2"], "task_id": "dru-v2-0028"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0029"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0656-2017", ""]], "stated": ["C1"], "task_id": "dru-v2-0030"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0880-2022", ""]], "stated": ["C2"], "task_id": "dru-v2-0042"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1130-2018", ""]], "stated": ["C2"], "task_id": "dru-v2-0046"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0048"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0050"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0051"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1201-2020", ""]], "stated": ["C2"], "task_id": "dru-v2-0052"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0053"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0054"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0055"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0056"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1056-2022", ""]], "stated": ["C2"], "task_id": "dru-v2-0057"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0058"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1513-2014", ""]], "stated": ["C2"], "task_id": "dru-v2-0059"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0060"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1216-2016", ""], ["D-1216-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0072"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1102-2016", ""]], "stated": ["C2"], "task_id": "dru-v2-0074"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0076"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0078"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1056-2014", ""]], "stated": ["C2"], "task_id": "dru-v2-0080"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0119-2022", ""]], "stated": ["C2"], "task_id": "dru-v2-0081"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0200-2015", ""]], "stated": ["C2"], "task_id": "dru-v2-0082"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0898-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0083"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0084"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-214-2014", ""]], "stated": ["C2"], "task_id": "dru-v2-0085"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0086"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0534-2020", ""]], "stated": ["C2"], "task_id": "dru-v2-0087"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0088"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0089"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0090"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0697-2018", ""]], "stated": ["C2"], "task_id": "dru-v2-0097"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0098"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0099"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0198-2022", ""]], "stated": ["C2"], "task_id": "dru-v2-0100"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0101"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0102"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0130-2015", ""]], "stated": ["C2"], "task_id": "dru-v2-0103"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0104"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0105"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0106"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0053-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0107"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0492-2016", ""]], "stated": ["C2"], "task_id": "dru-v2-0108"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1060-2013", ""]], "stated": ["C2"], "task_id": "dru-v2-0109"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0111"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0117"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0118"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0119"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0833-2016", ""], ["D-0833-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0120"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0121"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1488-2016", ""]], "stated": ["C2"], "task_id": "dru-v2-0122"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0123"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0124"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0270-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0125"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0126"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0325-2018", ""], ["D-0325-2018", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0127"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0128"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0129"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1130-2019", ""], ["D-1130-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0130"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0131"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0137"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0111-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0138"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0139"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0666-2016", ""]], "stated": ["C2"], "task_id": "dru-v2-0140"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0141"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0142"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0143"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0364-2025", ""]], "stated": ["C2"], "task_id": "dru-v2-0144"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0573-2016", ""]], "stated": ["C2"], "task_id": "dru-v2-0145"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0146"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0147"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1769-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0148"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0149"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0151"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0154"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0174-2016", ""]], "stated": ["C2"], "task_id": "dru-v2-0155"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0141-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0156"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0157"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0167-2020", ""]], "stated": ["C2"], "task_id": "dru-v2-0158"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0159"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0160"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0161"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0631-2022", ""]], "stated": ["C2"], "task_id": "dru-v2-0162"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0383-2017", ""]], "stated": ["C2"], "task_id": "dru-v2-0163"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0164"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0165"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0493-2020", ""], ["D-0493-2020", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0166"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0176-2018", ""]], "stated": ["C2"], "task_id": "dru-v2-0167"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0168"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0169"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0170"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0171"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "dru-v2-0172"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0823-2018", ""]], "stated": ["C2"], "task_id": "dru-v2-0173"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0174"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0935-2019", ""]], "stated": ["C1"], "task_id": "dru-v2-0175"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0176"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0177"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-500-2013", ""]], "stated": ["C2"], "task_id": "dru-v2-0178"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0179"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0234-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0180"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D1051-2015", ""], ["D1051-2015", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0181"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0182"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0471-2019", ""]], "stated": ["C2"], "task_id": "dru-v2-0183"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0168-2021", ""], ["D-0168-2021", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0184"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0185"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0186"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0012"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0014"}
+{"agent": "direct", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0020"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0021"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0024"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "fin-v2-0029"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0030"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0042"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0046"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0048"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0050"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0051"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "fin-v2-0052"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0054"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0055"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0056"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0057"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0058"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "fin-v2-0059"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0060"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0072"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "fin-v2-0074"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0076"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0080"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0081"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0082"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0083"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0085"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0086"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0087"}
+{"agent": "direct", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "fin-v2-0089"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0103"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0106"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0108"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0111"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "fin-v2-0112"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0113"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0115"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0116"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0117"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0118"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0124"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0125"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0132"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0133"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0134"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0135"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0136"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0138"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0139"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0140"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0146"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0148"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0151"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0153"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "fin-v2-0154"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0155"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0157"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0158"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0159"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0160"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0167"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0168"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0171"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0173"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0174"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0175"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0176"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0177"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0178"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "fin-v2-0179"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0180"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0181"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0186"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0188"}
+{"agent": "direct", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0190"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0192"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0193"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0194"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0195"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "fin-v2-0197"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "fin-v2-0199"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0200"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0205"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0206"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0208"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0209"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "fin-v2-0210"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0213"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "fin-v2-0215"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0217"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0219"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0220"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0222"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0223"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0225"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": [], "task_id": "fin-v2-0226"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0230"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0231"}
+{"agent": "direct", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["", ""], ["", ""]], "stated": ["C1"], "task_id": "fin-v2-0232"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0233"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0238"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [""], "task_id": "fin-v2-0240"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0242"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0243"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0244"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0245"}
+{"agent": "direct", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": [], "task_id": "fin-v2-0246"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0249"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0250"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0251"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0252"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0253"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0254"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0255"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0256"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["", ""]], "stated": ["C1"], "task_id": "fin-v2-0258"}
+{"agent": "direct", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [], "stated": ["C1"], "task_id": "fin-v2-0259"}
+{"agent": "direct", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "fin-v2-0260"}
+{"agent": "direct", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "fin-v2-0262"}

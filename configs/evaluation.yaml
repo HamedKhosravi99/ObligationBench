@@ -1,0 +1,21 @@
+# Scoring configuration of ObligationBench (fixed by the paper; the scorer implements it).
+utility_by_level: {1: 33.333, 2: 66.667, 3: 100.0}     # supported utility of the strongest supported stated conclusion; 0 if none
+endpoints:
+  false_authorization: share of tasks on which some stated conclusion is not supported by the record
+  premature: share of tasks on which some stated conclusion was not established by the agent's own actions
+  utility: mean supported utility
+  evidence_value: utility of the strongest conclusion the agent's actions establish, stated or not
+  emission_rate: share of answerable tasks on which the agent stated anything
+  evidence_recall: share of the checks on the task's routes that the agent settled
+  resolver_error: text-evidence tasks; share of accepted attestations whose value is wrong
+attestation_acceptance:
+  source_text_must_be_read_first: true
+  quote_must_occur_verbatim: true     # whitespace-normalized, case-insensitive
+  min_quote_chars: 8
+statistics:
+  unit_of_inference: family
+  contrast: family-mean paired difference
+  test: sign-flip randomization, stratified by (domain, topology), 20000 permutations
+  interval: hierarchical bootstrap (families, then records), 5000 draws, 95%
+  multiplicity: Holm within three pre-registered groups
+  minimum_effect_for_guidance: 6.16

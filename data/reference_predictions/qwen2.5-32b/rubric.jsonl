@@ -1,0 +1,480 @@
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0012"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0014"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0016"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0018"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0020"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["GHSA-5h3x-6gwf-73jm", "package.name"]], "stated": ["C2"], "task_id": "sec-v2-0021"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0022"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["GHSA-3ghp-8r47-4gj4", "package.name"]], "stated": ["C2"], "task_id": "sec-v2-0023"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0024"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0025"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0026"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0027"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0028"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0029"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-4x5p-f36r-mxxr", "package.name"], ["GHSA-4x5p-f36r-mxxr", "summary"]], "stated": [], "task_id": "sec-v2-0030"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0042"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0044"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0046"}
+{"agent": "rubric", "budget": "B20", "calls": 0, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0048"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0050"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0051"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0052"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["GHSA-4xh5-x5gv-qwph", "package.name"], ["GHSA-4xh5-x5gv-qwph", "summary"]], "stated": ["C1"], "task_id": "sec-v2-0053"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0054"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0055"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-3xvg-x47j-x75w", "package.name"], ["GHSA-3xvg-x47j-x75w", "summary"]], "stated": ["C1"], "task_id": "sec-v2-0056"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0057"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["GHSA-3qg8-5g3r-79v5", "package.name"]], "stated": ["C2"], "task_id": "sec-v2-0058"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0059"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0060"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["GHSA-5jfw-gq64-q45f", "package.name"], ["GHSA-5jfw-gq64-q45f", "summary"], ["GHSA-5jfw-gq64-q45f", ""]], "stated": ["C1"], "task_id": "sec-v2-0072"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0074"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0076"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0078"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0080"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0081"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0082"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0083"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0084"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0085"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0087"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-22p3-qrh9-cx32", "package.name"], ["GHSA-22p3-qrh9-cx32", "affected.0.package.name"]], "stated": ["C1", "C2"], "task_id": "sec-v2-0088"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0089"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0090"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0101"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0102"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0103"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-33qf-q99x-wpm8", "package.name"], ["GHSA-33qf-q99x-wpm8", "summary"]], "stated": ["C1"], "task_id": "sec-v2-0104"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0106"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0107"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0108"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0109"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0111"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0112"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0113"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-5pqf-rvm7-3wgw", "package.name"], ["GHSA-5pqf-rvm7-3wgw", "summary"]], "stated": [], "task_id": "sec-v2-0114"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0115"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-5qmp-p3c4-72qj", "package.name"], ["GHSA-5qmp-p3c4-72qj", "summary"]], "stated": ["C1"], "task_id": "sec-v2-0121"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-46r6-92jg-22jg", "package.name"], ["GHSA-46r6-92jg-22jg", "summary"]], "stated": [], "task_id": "sec-v2-0122"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0123"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-4x4j-2g7c-83w6", "package.name"], ["GHSA-4x4j-2g7c-83w6", "summary"]], "stated": [], "task_id": "sec-v2-0124"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0126"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0127"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0128"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0129"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0130"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["GHSA-46h3-79wf-xr6c", "package.name"], ["GHSA-46h3-79wf-xr6c", "summary"], ["GHSA-46h3-79wf-xr6c", "severity"]], "stated": [], "task_id": "sec-v2-0131"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0132"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0133"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0134"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0135"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0141"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0142"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0143"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0144"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0145"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0146"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0147"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0148"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0149"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0150"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0151"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0152"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0153"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["GHSA-4p62-hqp5-g644", "package.name"], ["GHSA-4p62-hqp5-g644", "summary"], ["GHSA-4p62-hqp5-g644", "severity"]], "stated": [], "task_id": "sec-v2-0154"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0155"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0159"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["GHSA-3x58-8qmv-wqw5", "package.name"]], "stated": ["C2"], "task_id": "sec-v2-0160"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0161"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0162"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0163"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0164"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0165"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0166"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0167"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-3qhf-m339-9g5v", "package.name"], ["GHSA-3qhf-m339-9g5v", "summary"]], "stated": [], "task_id": "sec-v2-0168"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0169"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["GHSA-35p3-6j45-prwm", "package.name"], ["GHSA-35p3-6j45-prwm", "summary"]], "stated": [], "task_id": "sec-v2-0170"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0171"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0172"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0174"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0175"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0176"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0177"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0178"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0179"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["GHSA-5rrg-rr89-x9mv", "package.name"], ["GHSA-5rrg-rr89-x9mv", "summary"], ["GHSA-5rrg-rr89-x9mv", "severity"]], "stated": ["C1"], "task_id": "sec-v2-0180"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0181"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0182"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0183"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["GHSA-588w-w6mv-3cw5", "package.name"]], "stated": ["C2"], "task_id": "sec-v2-0184"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0186"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0187"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0188"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0189"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0190"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0191"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["GHSA-5925-88xh-6h99", "package.name"], ["GHSA-5925-88xh-6h99", "summary"], ["GHSA-5925-88xh-6h99", "severity"]], "stated": [], "task_id": "sec-v2-0192"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0193"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "sec-v2-0194"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT02177994", "brief_title"], ["NCT02177994", "official_title"], ["NCT02177994", "title"], ["NCT02177994", "status"], ["NCT02177994", "overall_status"]], "stated": [], "task_id": "cli-v2-0012"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04478773", "brief_title"]], "stated": [], "task_id": "cli-v2-0014"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06998927", "brief_title"], ["NCT06998927", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0016"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT06222346", "brief_title"]], "stated": [], "task_id": "cli-v2-0018"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT03276910", "brief_title"], ["NCT03276910", "title"], ["NCT03276910", "status"]], "stated": [], "task_id": "cli-v2-0020"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT03253679", "brief_title"]], "stated": [], "task_id": "cli-v2-0021"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04738474", "brief_title"]], "stated": [], "task_id": "cli-v2-0022"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT00554762", "brief_title"], ["NCT00554762", "official_title"], ["NCT00554762", "title"], ["NCT00554762", "status"], ["NCT00554762", "study_type"]], "stated": [], "task_id": "cli-v2-0023"}
+{"agent": "rubric", "budget": "B20", "calls": 6, "model": "qwen2.5-32b", "reads": [["NCT01202825", "brief_title"], ["NCT01202825", "official_title"], ["NCT01202825", "title"], ["NCT01202825", "overall_status"], ["NCT01202825", "condition"], ["NCT01202825", "study_type"]], "stated": [], "task_id": "cli-v2-0024"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT03068494", "brief_title"], ["NCT03068494", "official_title"], ["NCT03068494", "overall_status"], ["NCT03068494", "title"]], "stated": [], "task_id": "cli-v2-0026"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT01857518", "brief_title"], ["NCT01857518", "official_title"], ["NCT01857518", "overall_status"]], "stated": [], "task_id": "cli-v2-0027"}
+{"agent": "rubric", "budget": "B20", "calls": 7, "model": "qwen2.5-32b", "reads": [["NCT03021772", "brief_title"], ["NCT03021772", "official_title"], ["NCT03021772", "title"], ["NCT03021772", "overall_status"], ["NCT03021772", "condition"], ["NCT03021772", "status"]], "stated": ["C1"], "task_id": "cli-v2-0028"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05504720", "brief_title"]], "stated": [], "task_id": "cli-v2-0029"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT03167541", "brief_title"], ["NCT03167541", "official_title"]], "stated": ["C3"], "task_id": "cli-v2-0030"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT06095102", "brief_title"]], "stated": [], "task_id": "cli-v2-0042"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT00001161", "brief_title"], ["NCT00001161", "official_title"], ["NCT00001161", "title"], ["NCT00001161", "status"], ["NCT00001161", "overall_status"]], "stated": [], "task_id": "cli-v2-0046"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT07159256", "brief_title"], ["NCT07159256", "official_title"], ["NCT07159256", "brief_summary.textblock"], ["NCT07159256", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0048"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04927494", "brief_title"]], "stated": [], "task_id": "cli-v2-0050"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT03508180", "brief_title"], ["NCT03508180", "official_title"], ["NCT03508180", "overall_status"], ["NCT03508180", "title"]], "stated": [], "task_id": "cli-v2-0051"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00600782", "brief_title"], ["NCT00600782", "official_title"], ["NCT00600782", "overall_status"], ["NCT00600782", "status"]], "stated": [], "task_id": "cli-v2-0052"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02706717", "brief_title"], ["NCT02706717", "official_title"], ["NCT02706717", "overall_status"], ["NCT02706717", "title"]], "stated": [], "task_id": "cli-v2-0053"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT07682597", "brief_title"], ["NCT07682597", "title"], ["NCT07682597", "official_title"]], "stated": [], "task_id": "cli-v2-0054"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT02426931", "brief_title"], ["NCT02426931", "official_title"], ["NCT02426931", "overall_status"], ["NCT02426931", "title"], ["NCT02426931", "study_type"]], "stated": [], "task_id": "cli-v2-0055"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT03561402", "brief_title"], ["NCT03561402", "official_title"], ["NCT03561402", "overall_status"], ["NCT03561402", "title"], ["NCT03561402", "study_type"]], "stated": [], "task_id": "cli-v2-0057"}
+{"agent": "rubric", "budget": "B20", "calls": 7, "model": "qwen2.5-32b", "reads": [["NCT05132179", "brief_title"], ["NCT05132179", "official_title"], ["NCT05132179", "title"], ["NCT05132179", "overall_status"], ["NCT05132179", "study_type"], ["NCT05132179", "eligibility.criteria.inclusion"]], "stated": ["C1"], "task_id": "cli-v2-0058"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT03975959", "brief_title"], ["NCT03975959", "official_title"]], "stated": [], "task_id": "cli-v2-0059"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT07393282", "brief_title"], ["NCT07393282", "overall_status"]], "stated": [], "task_id": "cli-v2-0060"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT07060105", "brief_title"], ["NCT07060105", "official_title"], ["NCT07060105", "overall_status"], ["NCT07060105", "title"], ["NCT07060105", "study_type"]], "stated": [], "task_id": "cli-v2-0072"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT07611110", "brief_title"]], "stated": [], "task_id": "cli-v2-0074"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00617942", "brief_title"], ["NCT00617942", "official_title"], ["NCT00617942", "overall_status"], ["NCT00617942", "title"]], "stated": [], "task_id": "cli-v2-0076"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00629122", "brief_title"], ["NCT00629122", "official_title"], ["NCT00629122", "overall_status"], ["NCT00629122", "title"]], "stated": [], "task_id": "cli-v2-0080"}
+{"agent": "rubric", "budget": "B20", "calls": 7, "model": "qwen2.5-32b", "reads": [["NCT05593380", "brief_title"], ["NCT05593380", "official_title"], ["NCT05593380", "overall_status"], ["NCT05593380", "title"], ["NCT05593380", "status"], ["NCT05593380", "org_study_id"], ["NCT05593380", "brief_summary"]], "stated": [], "task_id": "cli-v2-0081"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00521690", "brief_title"], ["NCT00521690", "official_title"], ["NCT00521690", "overall_status"], ["NCT00521690", "title"]], "stated": [], "task_id": "cli-v2-0083"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT00003994", "brief_title"], ["NCT00003994", "official_title"], ["NCT00003994", "title"], ["NCT00003994", "status"], ["NCT00003994", "org_study_id"]], "stated": [], "task_id": "cli-v2-0084"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02796586", "brief_title"], ["NCT02796586", "official_title"], ["NCT02796586", "overall_status"], ["NCT02796586", "title"]], "stated": [], "task_id": "cli-v2-0085"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05227105", "brief_title"]], "stated": [], "task_id": "cli-v2-0086"}
+{"agent": "rubric", "budget": "B20", "calls": 7, "model": "qwen2.5-32b", "reads": [["NCT07443345", "brief_title"], ["NCT07443345", "official_title"], ["NCT07443345", "overall_status"], ["NCT07443345", "status"], ["NCT07443345", "title"], ["NCT07443345", "brief_summary.textblock"], ["NCT07443345", "study_type"]], "stated": [], "task_id": "cli-v2-0087"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT07521579", "brief_title"], ["NCT07521579", "official_title"], ["NCT07521579", "overall_status"]], "stated": [], "task_id": "cli-v2-0088"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT04623502", "brief_title"], ["NCT04623502", "official_title"]], "stated": [], "task_id": "cli-v2-0089"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00542542", "brief_title"], ["NCT00542542", "official_title"], ["NCT00542542", "overall_status"], ["NCT00542542", "title"]], "stated": [], "task_id": "cli-v2-0090"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT05958797", "brief_title"], ["NCT05958797", "overall_status"]], "stated": [], "task_id": "cli-v2-0098"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02937766", "brief_title"], ["NCT02937766", "official_title"], ["NCT02937766", "overall_status"], ["NCT02937766", "status"]], "stated": [], "task_id": "cli-v2-0099"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT07001254", "brief_title"], ["NCT07001254", "official_title"], ["NCT07001254", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0100"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00087568", "brief_title"], ["NCT00087568", "title"], ["NCT00087568", "status"]], "stated": ["C3"], "task_id": "cli-v2-0102"}
+{"agent": "rubric", "budget": "B20", "calls": 6, "model": "qwen2.5-32b", "reads": [["NCT01634217", "brief_title"], ["NCT01634217", "official_title"], ["NCT01634217", "title"], ["NCT01634217", "overall_status"], ["NCT01634217", "eligibility.criteria"]], "stated": ["C1"], "task_id": "cli-v2-0103"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT04015141", "brief_title"], ["NCT04015141", "title"]], "stated": [], "task_id": "cli-v2-0104"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT00754390", "brief_title"], ["NCT00754390", "official_title"], ["NCT00754390", "overall_status"]], "stated": [], "task_id": "cli-v2-0105"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT04286074", "brief_title"], ["NCT04286074", "overall_status"], ["NCT04286074", "status"], ["NCT04286074", "brief_summary"]], "stated": [], "task_id": "cli-v2-0106"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT01957202", "brief_title"], ["NCT01957202", "official_title"], ["NCT01957202", "title"], ["NCT01957202", "overall_status"], ["NCT01957202", "study_type"]], "stated": [], "task_id": "cli-v2-0107"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT01730235", "brief_title"], ["NCT01730235", "official_title"], ["NCT01730235", "overall_status"], ["NCT01730235", "title"]], "stated": [], "task_id": "cli-v2-0108"}
+{"agent": "rubric", "budget": "B20", "calls": 6, "model": "qwen2.5-32b", "reads": [["NCT02482246", "brief_title"], ["NCT02482246", "official_title"], ["NCT02482246", "title"], ["NCT02482246", "status"], ["NCT02482246", "org_study_id"], ["NCT02482246", "overall_status"]], "stated": [], "task_id": "cli-v2-0109"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04944862", "brief_title"]], "stated": [], "task_id": "cli-v2-0111"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04648683", "brief_title"]], "stated": [], "task_id": "cli-v2-0112"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02036697", "brief_title"], ["NCT02036697", "official_title"], ["NCT02036697", "title"], ["NCT02036697", "overall_status"]], "stated": [], "task_id": "cli-v2-0118"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT04551495", "brief_title"], ["NCT04551495", "official_title"], ["NCT04551495", "title"], ["NCT04551495", "overall_status"], ["NCT04551495", "study_type"]], "stated": [], "task_id": "cli-v2-0119"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04392388", "brief_title"]], "stated": [], "task_id": "cli-v2-0120"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05732025", "brief_title"]], "stated": [], "task_id": "cli-v2-0121"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05745259", "brief_title"]], "stated": [], "task_id": "cli-v2-0122"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT01614340", "brief_title"], ["NCT01614340", "official_title"], ["NCT01614340", "status"]], "stated": [], "task_id": "cli-v2-0123"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT07390968", "brief_title"]], "stated": [], "task_id": "cli-v2-0124"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT01903174", "brief_title"], ["NCT01903174", "official_title"], ["NCT01903174", "overall_status"], ["NCT01903174", "title"]], "stated": [], "task_id": "cli-v2-0125"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02872870", "brief_title"], ["NCT02872870", "official_title"], ["NCT02872870", "overall_status"], ["NCT02872870", "title"]], "stated": [], "task_id": "cli-v2-0126"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT07233668", "brief_title"]], "stated": [], "task_id": "cli-v2-0127"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00947674", "brief_title"], ["NCT00947674", "official_title"], ["NCT00947674", "overall_status"], ["NCT00947674", "title"]], "stated": [], "task_id": "cli-v2-0128"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00705354", "brief_title"], ["NCT00705354", "official_title"], ["NCT00705354", "overall_status"], ["NCT00705354", "title"]], "stated": [], "task_id": "cli-v2-0129"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT03614897", "brief_title"], ["NCT03614897", "official_title"], ["NCT03614897", "overall_status"], ["NCT03614897", "title"]], "stated": [], "task_id": "cli-v2-0130"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00421980", "brief_title"], ["NCT00421980", "official_title"], ["NCT00421980", "overall_status"], ["NCT00421980", "title"]], "stated": [], "task_id": "cli-v2-0131"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT07123974", "brief_title"]], "stated": [], "task_id": "cli-v2-0132"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT01554059", "brief_title"], ["NCT01554059", "overall_status"], ["NCT01554059", "title"]], "stated": [], "task_id": "cli-v2-0138"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT01390259", "brief_title"], ["NCT01390259", "official_title"], ["NCT01390259", "overall_status"], ["NCT01390259", "study_type"]], "stated": [], "task_id": "cli-v2-0139"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05247437", "brief_title"]], "stated": [], "task_id": "cli-v2-0140"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT01576003", "brief_title"], ["NCT01576003", "official_title"], ["NCT01576003", "title"], ["NCT01576003", "status"], ["NCT01576003", "study_type"]], "stated": [], "task_id": "cli-v2-0141"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT02807779", "brief_title"], ["NCT02807779", "official_title"], ["NCT02807779", "title"], ["NCT02807779", "overall_status"], ["NCT02807779", "study_type"]], "stated": [], "task_id": "cli-v2-0142"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT00003742", "brief_title"], ["NCT00003742", "official_title"], ["NCT00003742", "title"], ["NCT00003742", "status"], ["NCT00003742", "study_type"]], "stated": [], "task_id": "cli-v2-0143"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT01513291", "brief_title"], ["NCT01513291", "official_title"], ["NCT01513291", "status"], ["NCT01513291", ""], ["NCT01513291", "overall_status"]], "stated": ["C2"], "task_id": "cli-v2-0144"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT03514953", "brief_title"], ["NCT03514953", "official_title"], ["NCT03514953", "overall_status"], ["NCT03514953", "title"]], "stated": [], "task_id": "cli-v2-0145"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT03330288", "brief_title"], ["NCT03330288", "official_title"]], "stated": [], "task_id": "cli-v2-0146"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05019846", "brief_title"]], "stated": [], "task_id": "cli-v2-0147"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06620445", "brief_title"], ["NCT06620445", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0148"}
+{"agent": "rubric", "budget": "B20", "calls": 6, "model": "qwen2.5-32b", "reads": [["NCT01723176", "brief_title"], ["NCT01723176", "official_title"], ["NCT01723176", "title"], ["NCT01723176", "overall_status"], ["NCT01723176", "eligibility.criteria"]], "stated": ["C1"], "task_id": "cli-v2-0149"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT02280382", "brief_title"], ["NCT02280382", "title"], ["NCT02280382", "overall_status"], ["NCT02280382", "official_title"], ["NCT02280382", "brief_summary"]], "stated": [], "task_id": "cli-v2-0150"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT00503672", "brief_title"], ["NCT00503672", "official_title"], ["NCT00503672", "status"]], "stated": [], "task_id": "cli-v2-0151"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04625959", "brief_title"]], "stated": [], "task_id": "cli-v2-0152"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT03781037", "Basics.Title"], ["NCT03781037", "org_study_id_info.org_study_id"], ["NCT03781037", "brief_title"], ["NCT03781037", ""]], "stated": ["C3"], "task_id": "cli-v2-0155"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT07678840", "brief_title"], ["NCT07678840", "official_title"], ["NCT07678840", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0156"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT00896974", "brief_title"], ["NCT00896974", "official_title"], ["NCT00896974", "title"], ["NCT00896974", "status"], ["NCT00896974", "org_study_id"]], "stated": [], "task_id": "cli-v2-0157"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06719037", "brief_title"], ["NCT06719037", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0159"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04953169", "brief_title"]], "stated": [], "task_id": "cli-v2-0160"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT05143554", "brief_title"], ["NCT05143554", "official_title"], ["NCT05143554", "overall_status"]], "stated": [], "task_id": "cli-v2-0161"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06260020", "brief_title"], ["NCT06260020", "official_title"], ["NCT06260020", "overall_status"]], "stated": [], "task_id": "cli-v2-0162"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT06258551", "brief_title"], ["NCT06258551", "overall_status"]], "stated": [], "task_id": "cli-v2-0163"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT07149896", "brief_title"]], "stated": [], "task_id": "cli-v2-0164"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05014256", "brief_title"]], "stated": [], "task_id": "cli-v2-0165"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04472325", "brief_title"]], "stated": [], "task_id": "cli-v2-0166"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT03427424", "brief_title"]], "stated": [], "task_id": "cli-v2-0167"}
+{"agent": "rubric", "budget": "B20", "calls": 9, "model": "qwen2.5-32b", "reads": [["NCT04297280", "brief_title"], ["NCT04297280", "official_title"], ["NCT04297280", "overall_status"], ["NCT04297280", "title"], ["NCT04297280", "status"], ["NCT04297280", "brief_summary.textblock"], ["NCT04297280", "condition.brief_title"], ["NCT04297280", "org_study_id"], ["NCT04297280", "overall_status"]], "stated": [], "task_id": "cli-v2-0168"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00354224", "brief_title"], ["NCT00354224", "official_title"], ["NCT00354224", "overall_status"], ["NCT00354224", "title"]], "stated": [], "task_id": "cli-v2-0169"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT04440423", "brief_title"]], "stated": [], "task_id": "cli-v2-0172"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT03862313", "brief_title"]], "stated": [], "task_id": "cli-v2-0173"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT01761266", "brief_title"], ["NCT01761266", "official_title"], ["NCT01761266", "overall_status"], ["NCT01761266", "title"]], "stated": [], "task_id": "cli-v2-0174"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02651168", "brief_title"], ["NCT02651168", "official_title"], ["NCT02651168", "title"], ["NCT02651168", "overall_status"]], "stated": [], "task_id": "cli-v2-0175"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06554041", "brief_title"], ["NCT06554041", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0176"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT03026673", "brief_title"], ["NCT03026673", "official_title"], ["NCT03026673", "title"], ["NCT03026673", "overall_status"], ["NCT03026673", "study_type"]], "stated": [], "task_id": "cli-v2-0177"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT02010697", "brief_title"], ["NCT02010697", "official_title"], ["NCT02010697", "overall_status"], ["NCT02010697", "title"]], "stated": [], "task_id": "cli-v2-0178"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06515353", "brief_title"], ["NCT06515353", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0179"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT03442088", "brief_title"], ["NCT03442088", "official_title"]], "stated": [], "task_id": "cli-v2-0180"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00242866", "brief_title"], ["NCT00242866", "official_title"], ["NCT00242866", "overall_status"], ["NCT00242866", "title"]], "stated": [], "task_id": "cli-v2-0181"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT01783951", "brief_title"], ["NCT01783951", "official_title"], ["NCT01783951", "overall_status"], ["NCT01783951", "title"]], "stated": [], "task_id": "cli-v2-0182"}
+{"agent": "rubric", "budget": "B20", "calls": 6, "model": "qwen2.5-32b", "reads": [["NCT03875040", "brief_title"], ["NCT03875040", "official_title"], ["NCT03875040", "title"], ["NCT03875040", "status"], ["NCT03875040", "overall_status"], ["NCT03875040", "study_type"]], "stated": [], "task_id": "cli-v2-0183"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT01618331", "brief_title"], ["NCT01618331", "official_title"], ["NCT01618331", "overall_status"], ["NCT01618331", "title"]], "stated": [], "task_id": "cli-v2-0184"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT06904859", "brief_title"], ["NCT06904859", "official_title"], ["NCT06904859", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0185"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05632562", "brief_title"]], "stated": [], "task_id": "cli-v2-0186"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["NCT00235560", "brief_title"], ["NCT00235560", "official_title"], ["NCT00235560", "overall_status"], ["NCT00235560", "title"]], "stated": [], "task_id": "cli-v2-0187"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05410990", "brief_title"]], "stated": [], "task_id": "cli-v2-0188"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT03388476", "brief_title"], ["NCT03388476", "official_title"]], "stated": [], "task_id": "cli-v2-0189"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["NCT05826197", "brief_title"]], "stated": [], "task_id": "cli-v2-0190"}
+{"agent": "rubric", "budget": "B20", "calls": 5, "model": "qwen2.5-32b", "reads": [["NCT03696069", "brief_title"], ["NCT03696069", "official_title"], ["NCT03696069", "title"], ["NCT03696069", "overall_status"], ["NCT03696069", "study_type"]], "stated": [], "task_id": "cli-v2-0191"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["NCT06448676", "brief_title"], ["NCT06448676", "overall_status"]], "stated": [], "task_id": "cli-v2-0192"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT06927154", "brief_title"], ["NCT06927154", "overall_status"]], "stated": ["C1"], "task_id": "cli-v2-0193"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["NCT00070291", "brief_title"], ["NCT00070291", "overall_status"], ["NCT00070291", "title"]], "stated": [], "task_id": "cli-v2-0194"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1109-2016", "classification"], ["D-1109-2016", "product_description"]], "stated": [], "task_id": "dru-v2-0012"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0078-2022", ""]], "stated": ["C1"], "task_id": "dru-v2-0014"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1099-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0016"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0790-2017", "classification"], ["D-0790-2017", "product_description"]], "stated": [], "task_id": "dru-v2-0018"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0020"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1222-2022", "classification"], ["D-1222-2022", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0021"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1288-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0022"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0758-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0023"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0024"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1209-2018", "classification"], ["D-1209-2018", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0025"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0755-2017", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0026"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1558-2019", ""], ["D-1558-2019", "status"]], "stated": ["C1"], "task_id": "dru-v2-0027"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0382-2018", "classification"], ["D-0382-2018", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0028"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0602-2026", "classification"], ["D-0602-2026", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0029"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0656-2017", "classification"], ["D-0656-2017", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0030"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0880-2022", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0042"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1130-2018", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0046"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-850-2014", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0048"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1132-2014", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0050"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1342-2014", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0051"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1201-2020", "classification"], ["D-1201-2020", "product_description"]], "stated": [], "task_id": "dru-v2-0052"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["D-0496-2023", "classification"]], "stated": [], "task_id": "dru-v2-0053"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0666-2020", ""], ["D-0666-2020", "distribution_pattern"]], "stated": ["C2"], "task_id": "dru-v2-0054"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1548-2016", "classification"], ["D-1548-2016", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0055"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0529-2021", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0056"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["D-1056-2022", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0057"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1299-2020", "classification"], ["D-1299-2020", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0058"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1513-2014", "classification"], ["D-1513-2014", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0059"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0088-2019", "classification"], ["D-0088-2019", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0060"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1216-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0072"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1102-2016", "classification"], ["D-1102-2016", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0074"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1274-2020", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0076"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0205-2025", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0078"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1056-2014", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0080"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0119-2022", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0081"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0200-2015", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0082"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0898-2017", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0083"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1015-2015", "classification"], ["D-1015-2015", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0084"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-214-2014", "classification"], ["D-214-2014", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0085"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0536-2025", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0086"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0534-2020", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0087"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-104-2014", "classification"], ["D-104-2014", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0088"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0527-2023", "classification"], ["D-0527-2023", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0089"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["D-1425-2022", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0090"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0697-2018", "classification"], ["D-0697-2018", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0097"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0098"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1168-2023", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0099"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0198-2022", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0100"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0220-2023", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0101"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-736-2013", "classification"], ["D-736-2013", "action"], ["D-736-2013", "product_description"]], "stated": [], "task_id": "dru-v2-0102"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0130-2015", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0103"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0104"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0255-2023", "classification"], ["D-0255-2023", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0105"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0655-2023", "classification"], ["D-0655-2023", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0106"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0053-2017", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0107"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0492-2016", "classification"], ["D-0492-2016", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0108"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1060-2013", "classification"], ["D-1060-2013", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0109"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0566-2018", "classification"], ["D-0566-2018", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0111"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1317-2014", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0117"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1205-2020", "classification"], ["D-1205-2020", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0118"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1117-2020", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0119"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0833-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0120"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1106-2020", "classification"], ["D-1106-2020", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0121"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1488-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0122"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0323-2026", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0123"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1135-2017", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0124"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0270-2017", "classification"], ["D-0270-2017", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0125"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0356-2025", "classification"], ["D-0356-2025", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0126"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0325-2018", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0127"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1461-2022", "classification"], ["D-1461-2022", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0128"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0129"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1130-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0130"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1007-2014", "classification"], ["D-1007-2014", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0131"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0350-2025", "classification"], ["D-0350-2025", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0137"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0111-2019", "classification"], ["D-0111-2019", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0138"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1176-2023", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0139"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0666-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0140"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-832-2015", "classification"], ["D-832-2015", "product_description"]], "stated": [], "task_id": "dru-v2-0141"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1726-2015", "classification"], ["D-1726-2015", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0142"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1564-2012", "classification"], ["D-1564-2012", "product_description"]], "stated": [], "task_id": "dru-v2-0143"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0364-2025", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0144"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0573-2016", "classification"], ["D-0573-2016", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0145"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0792-2023", "classification"], ["D-0792-2023", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0146"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1371-2015", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0147"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1769-2019", "classification"], ["D-1769-2019", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0148"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-366-2014", "classification"], ["D-366-2014", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0149"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0607-2022", "classification"], ["D-0607-2022", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0151"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0379-2023", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0154"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0174-2016", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0155"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0141-2017", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0156"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0157"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0167-2020", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0158"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0159"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0057-2026", "classification"], ["D-0057-2026", "product_description"]], "stated": [], "task_id": "dru-v2-0160"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0161"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0631-2022", "classification"], ["D-0631-2022", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0162"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0383-2017", "classification"], ["D-0383-2017", "product_description"]], "stated": [], "task_id": "dru-v2-0163"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["D-946-2015", "classification"]], "stated": [], "task_id": "dru-v2-0164"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["D-0647-2023", ""]], "stated": ["C1"], "task_id": "dru-v2-0165"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0166"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0176-2018", "classification"], ["D-0176-2018", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0167"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0351-2020", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0168"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0765-2021", "classification"], ["D-0765-2021", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0169"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-827-2014", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0170"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-389-2013", "classification"], ["D-389-2013", "product_description"]], "stated": [], "task_id": "dru-v2-0171"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0172"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0823-2018", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0173"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-0452-2023", "classification"], ["D-0452-2023", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0174"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0935-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0175"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0599-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0176"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-1157-2016", "classification"], ["D-1157-2016", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0177"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C3"], "task_id": "dru-v2-0178"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [], "stated": ["C2"], "task_id": "dru-v2-0179"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0234-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0180"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D1051-2015", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0181"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0076-2024", "classification"], ["D-0076-2024", "product_description"]], "stated": [], "task_id": "dru-v2-0182"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0471-2019", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0183"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-0168-2021", "classification"]], "stated": ["C1"], "task_id": "dru-v2-0184"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["D-1158-2022", "classification"], ["D-1158-2022", "product_description"]], "stated": ["C1"], "task_id": "dru-v2-0185"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["D-722-2013", "classification"], ["D-722-2013", "product_description"]], "stated": [], "task_id": "dru-v2-0186"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000315293", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0012"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001269238", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0014"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000108312", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0020"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000783325", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0021"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001493594", "facts.us-gaap.TotalAssets"], ["CIK0001493594", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": [], "task_id": "fin-v2-0024"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001378789", "companyName"]], "stated": [], "task_id": "fin-v2-0029"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000018230", "facts.us-gaap.Assets"], ["CIK0000018230", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1", "C2"], "task_id": "fin-v2-0030"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001792044", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0042"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001383650", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0046"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000009389", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0048"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001031296", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0050"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001318605", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0051"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000015615", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0052"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000820318", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0054"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000879169", "facts.us-gaap.Assets"], ["CIK0000879169", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0055"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000047111", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0056"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001089063", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0057"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001000697", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0058"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000818686", "facts.us-gaap.Assets"], ["CIK0000818686", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0059"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001262039", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0060"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000029989", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0072"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000788784", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0074"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0001082554", "facts.us-gaap.Assets"], ["CIK0001082554", "facts.us-gaap.TotalAssets"], ["CIK0001082554", "facts.us-gaap.TotalAssets.context"]], "stated": [], "task_id": "fin-v2-0076"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000066740", "facts.Asset"], ["CIK0000066740", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0080"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000882835", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0081"}
+{"agent": "rubric", "budget": "B20", "calls": 4, "model": "qwen2.5-32b", "reads": [["CIK0001633917", "companyName"], ["CIK0001633917", "totalAssets"], ["CIK0001633917", "us-gaap.Assets"], ["CIK0001633917", "entity.name"]], "stated": [], "task_id": "fin-v2-0082"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001594805", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0083"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000021344", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0085"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001373715", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0086"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000076334", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0087"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001318220", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0089"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001601046", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0103"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000764478", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0106"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001437107", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0108"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000936395", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0111"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001468174", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0112"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000097476", "facts.Assets"]], "stated": [], "task_id": "fin-v2-0113"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000728535", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0115"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000027419", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0116"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000065984", "facts.us-gaap.Assets"], ["CIK0000065984", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": [], "task_id": "fin-v2-0117"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001385157", "companyName"], ["CIK0001385157", "totalAssets"]], "stated": [], "task_id": "fin-v2-0118"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001389170", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0124"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000051434", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0125"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0001650164", "facts.us-gaap.TotalAssets"], ["CIK0001650164", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0132"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000886982", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0133"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001413447", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0134"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000033185", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0135"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000936340", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0136"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000928876", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0138"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001637459", "facts.us-gaap.Assets"], ["CIK0001637459", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": [], "task_id": "fin-v2-0139"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000749098", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0140"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001402057", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0146"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001041061", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0148"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000036104", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0151"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000879101", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0153"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001973266", "facts.us-gaap.Assets"], ["CIK0001973266", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": [], "task_id": "fin-v2-0154"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001755672", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0155"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000029534", "companyName"]], "stated": [], "task_id": "fin-v2-0157"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000040987", "companyName"]], "stated": [], "task_id": "fin-v2-0158"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0001099800", "companyName"], ["CIK0001099800", "us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0159"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001868275", "companyfacts"]], "stated": [], "task_id": "fin-v2-0160"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001418135", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0167"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001660134", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0168"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001604821", "facts.us-gaap.Assets"], ["CIK0001604821", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0171"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001635327", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0173"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001402436", "facts.us-gaap.Assets"], ["CIK0001402436", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": [], "task_id": "fin-v2-0174"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000721371", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0175"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001111711", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0176"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000882184", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0177"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001442145", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0178"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0001590364", "facts.us-gaap.TotalAssets"], ["CIK0001590364", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0179"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001166691", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0180"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001404912", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0181"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0002083785", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0186"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000895421", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0188"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000017843", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0190"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001415404", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0192"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000073309", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0193"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000860730", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0194"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001618756", "facts.us-gaap.Assets"], ["CIK0001618756", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0195"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000861884", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0197"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001136893", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0199"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000829224", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0200"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001108524", "facts.us-gaap.TotalAssets"], ["CIK0001108524", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0205"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000898293", "companyName"], ["CIK0000898293", "us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0206"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001327811", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0208"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001113169", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0209"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001818874", "companyName"], ["CIK0001818874", "totalAssets"]], "stated": [], "task_id": "fin-v2-0210"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001543151", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0213"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000815556", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0215"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000773840", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0217"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001403568", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0219"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000048898", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0220"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000040545", "companyName"], ["CIK0000040545", "us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0222"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001090872", "facts.us-gaap.TotalAssets"], ["CIK0001090872", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0223"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000313927", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0225"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001534701", "facts.Assets"], ["CIK0001534701", "facts.us-gaap.Assets"]], "stated": [], "task_id": "fin-v2-0226"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0000109198", "facts.us-gaap.Assets"], ["CIK0000109198", "facts.us-gaap.TotalAssets"], ["CIK0000109198", "facts.us-gaap.AssetsCurrent"]], "stated": [], "task_id": "fin-v2-0230"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000813672", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0231"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000027904", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0232"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000047217", "facts.us-gaap.Assets"], ["CIK0000047217", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0233"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001410636", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0238"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001692819", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0240"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001133421", "companyName"], ["CIK0001133421", "us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0242"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001116132", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0243"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0000866787", "facts.us-gaap.TotalAssets"], ["CIK0000866787", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"], ["CIK0000866787", "entity.name"]], "stated": ["C1"], "task_id": "fin-v2-0244"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001681459", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0245"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0000320187", "facts.us-gaap.Assets"], ["CIK0000320187", "facts.us-gaap.TotalAssets"], ["CIK0000320187", "facts.us-gaap.AssetsCurrent"]], "stated": [], "task_id": "fin-v2-0246"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0002035989", "companyfacts"]], "stated": [], "task_id": "fin-v2-0249"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000068505", "facts.us-gaap.TotalAssets"], ["CIK0000068505", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0250"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001101302", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0251"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000797468", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0252"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0001664703", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0253"}
+{"agent": "rubric", "budget": "B20", "calls": 1, "model": "qwen2.5-32b", "reads": [["CIK0000731766", "facts.us-gaap.Assets"]], "stated": ["C1"], "task_id": "fin-v2-0254"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001466258", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0255"}
+{"agent": "rubric", "budget": "B20", "calls": 3, "model": "qwen2.5-32b", "reads": [["CIK0001699150", "companyName"], ["CIK0001699150", "us-gaap:Assets"], ["CIK0001699150", "us-gaap:Assets.latest.filingValue"]], "stated": [], "task_id": "fin-v2-0256"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001002910", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0258"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000947484", "facts.us-gaap.TotalAssets"]], "stated": ["C1"], "task_id": "fin-v2-0259"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0001048286", "facts.us-gaap.TotalAssets"], ["CIK0001048286", "facts.us-gaap.CashAndCashEquivalentsAtCarryingValue"]], "stated": ["C1"], "task_id": "fin-v2-0260"}
+{"agent": "rubric", "budget": "B20", "calls": 2, "model": "qwen2.5-32b", "reads": [["CIK0000079282", "facts.us-gaap.Assets"], ["CIK0000079282", "facts.us-gaap.TotalAssets"]], "stated": [], "task_id": "fin-v2-0262"}

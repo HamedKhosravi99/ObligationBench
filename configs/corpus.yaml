@@ -1,0 +1,26 @@
+# ObligationBench corpus configuration. These are the values the vendored generator
+# (src/obligationbench/generation/record_tasks.py, text_tasks.py) uses; they are listed
+# here for reference and for the reproduction scripts, which pass them on the command
+# line. Changing them does not change the published corpus, which is frozen.
+seed: 20260801
+domains: [security, clinical, drugsafety, financial]
+sources:
+  security: GitHub Advisory Database (PyPI ecosystem) via OSV bulk export, retrieved 2026-08-01
+  clinical: ClinicalTrials.gov API v2, retrieved 2026-08-01
+  drugsafety: openFDA drug enforcement endpoint, retrieved 2026-08-01
+  financial: SEC EDGAR XBRL company facts, retrieved 2026-08-01
+families_per_domain: 30          # 20 branching + 10 nested, enumerated deterministically from the domain's probe pool
+family_splits: {dev: 0.4, val: 0.1, heldout: 0.5}   # families are held out whole
+quotas_per_domain:
+  dev: 48
+  val: 12
+  heldout_balanced: 120
+  heldout_natural: 60             # financial reached 38: the pool ran out of records with the needed fields
+strata_cycle: [3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 3, 2, 1, 0, 3, 2]   # target strongest-supported level, ~30/30/25/15
+false_mechanism_cycle: [true, true, false, true, false, true, false]   # degrade by a false check, else by unavailable evidence
+derived_variants:
+  locator:   {per_domain: 120, candidates_per_check: 3, derived_from: heldout_balanced}
+  onebranch: {per_domain: 60, families: branching held-out families, records: unused elsewhere}
+  text:      {per_domain: 120, domains: [clinical, security], id_base: 7000}
+external_standard:
+  fdaaa: {tasks: 319, standard: "42 CFR Part 11, compiled by hand", records: "ClinicalTrials.gov, retrieved 2026-08-03"}
