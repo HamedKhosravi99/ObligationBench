@@ -6,8 +6,10 @@ reference predictions with the released scorer, and compare with the paper.
 
 The reference predictions (data/reference_predictions/<model>/<agent>.jsonl) were
 rebuilt from the paper's episode logs using only the stated conclusions and the
-recorded reads. The expected values are those printed in the paper (Table 1 and
-the comparator table); the script exits nonzero on any difference above 0.05."""
+recorded reads. For the nine agents of the paper's Experiment A the expected values
+are those the paper prints (Table 1 and Figure 3); the six further baselines are
+reference values from the released logs, which the paper does not report. The
+script exits nonzero on any difference above 0.05."""
 from __future__ import annotations
 
 import argparse
@@ -69,11 +71,11 @@ def main(argv=None) -> int:
             if x is None or g is None:
                 continue
             if abs(g - x) > a.tolerance:
-                bad.append("%s %s: got %.2f, paper %.1f" % (name, k, g, x))
+                bad.append("%s %s: got %.2f, expected %.1f" % (name, k, g, x))
     if bad:
         print("DIFFERENCES:"); [print(" ", b) for b in bad]
         return 1
-    print("all %d agents match the paper" % n)
+    print("all %d agents match their reference values" % n)
     return 0
 
 

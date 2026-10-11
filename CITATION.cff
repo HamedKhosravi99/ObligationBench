@@ -8,7 +8,7 @@ authors:
   - name: "Anonymous (names withheld for double-anonymous review; to be filled at publication)"
 preferred-citation:
   type: article
-  title: "PRIME: Precommitted Rules for Inference from Minimal Evidence in LLM-Based AI Agents"
+  title: "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents"
   authors:
     - name: "Anonymous (to be filled at publication)"
   year: 2026

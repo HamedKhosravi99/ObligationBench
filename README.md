@@ -1,6 +1,6 @@
 # ObligationBench
 
-A benchmark of evidence-based review tasks for LLM agents, with a deterministic scorer and the generator that built it. It accompanies the paper *PRIME: Precommitted Rules for Inference from Minimal Evidence in LLM-Based AI Agents* (under review) and is usable without PRIME.
+A benchmark of evidence-based review tasks for LLM agents, with a deterministic scorer and the generator that built it. It accompanies the paper *PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents* (under review) and is usable without PRIME.
 
 Each task gives an agent one real public record (a vulnerability advisory, a trial registration, a drug recall, or a company's financial facts), a request, three conclusions of increasing strength, and the checks each conclusion requires. The agent reads fields of the record through tools and states the strongest conclusion it can justify. Which checks suffice is fixed before any record is read, and every check's true value is computed from the record, so scoring runs code: no model or person judges an answer.
 
@@ -8,7 +8,7 @@ Each task gives an agent one real public record (a vulnerability advisory, a tri
 |---|---|
 | Primary corpus | 938 tasks: balanced 480, natural 218, dev 192, val 48; 120 template families; four domains |
 | Derived variants | locator 480 (fields withheld, three candidates), onebranch 240, text 240 (free-text evidence judged by the agent) |
-| External standard | fdaaa 319 (42 CFR Part 11, compiled by hand, on ClinicalTrials.gov registrations) |
+| External standard | fdaaa 319 (42 CFR Part 11, program written by an LLM coding assistant, on ClinicalTrials.gov registrations) |
 | Scoring | false authorization, premature conclusions, supported utility, evidence value, emission, evidence recall, tool calls, resolver error |
 | Needs | Python 3.9+, standard library only; `datasets` optional for Hugging Face loading |
 

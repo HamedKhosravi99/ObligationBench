@@ -63,7 +63,7 @@ configs:
 
 ObligationBench tests whether an LLM agent completes the checks a conclusion requires before it states the conclusion. Each task gives the agent one real public record, a request about it, three conclusions of increasing strength, and the checks each conclusion needs. The agent reads fields of the record with tools and states the strongest conclusion it can justify. Which checks suffice for each conclusion is fixed in the task before any record is read, and the true value of every check is computed from the record, so scoring runs code: no language model or person judges an answer.
 
-The benchmark accompanies the paper *PRIME: Precommitted Rules for Inference from Minimal Evidence in LLM-Based AI Agents* (under review). It is usable without PRIME: any agent that can read record fields and state conclusions can be scored, and the scorer makes no assumption about how the agent decided what to read or what to state.
+The benchmark accompanies the paper *PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents* (under review). It is usable without PRIME: any agent that can read record fields and state conclusions can be scored, and the scorer makes no assumption about how the agent decided what to read or what to state.
 
 **Generative.** Tasks are instantiated from 120 template families on real records by a deterministic generator (seed 20260801). The generator is released with the code repository; it regenerates the derived variants from the published corpus and generates further tasks from the same families on new records (see "Generation" below for what it does and does not reproduce).
 
@@ -87,7 +87,7 @@ The **primary corpus** is 938 tasks in four splits. The **derived variants** are
 | `locator` | 480 | 60 | variant of `balanced` | each task is a copy of a balanced task (`parent_task_id`) in which every check withholds its field and instead gives a description and three candidate fields, the true one among them |
 | `onebranch` | 240 | 40 | variant | new records from the 40 branching held-out families, in which exactly one of the two routes to the middle conclusion is degraded |
 | `text` | 240 | 2 | variant | clinical and security tasks whose three upper checks are judgments on a free-text field, attested by the agent with a verbatim quote and scored against structured fields withheld from it |
-| `fdaaa` | 319 | 124 | external standard | the U.S. results-reporting regulation (42 CFR Part 11), compiled by hand, applied to ClinicalTrials.gov registrations (domain `fdaaa_ctgov`; some checks have the reference value `U`, unresolved, when the registry holds no submission date) |
+| `fdaaa` | 319 | 124 | external standard | the U.S. results-reporting regulation (42 CFR Part 11), with the program written by an LLM coding assistant, applied to ClinicalTrials.gov registrations (domain `fdaaa_ctgov`; some checks have the reference value `U`, unresolved, when the registry holds no submission date) |
 
 `default` exposes the four primary splits as one configuration (`balanced`, `natural`, `dev`, `val`).
 

@@ -23,4 +23,4 @@ derived_variants:
   onebranch: {per_domain: 60, families: branching held-out families, records: unused elsewhere}
   text:      {per_domain: 120, domains: [clinical, security], id_base: 7000}
 external_standard:
-  fdaaa: {tasks: 319, standard: "42 CFR Part 11, compiled by hand", records: "ClinicalTrials.gov, retrieved 2026-08-03"}
+  fdaaa: {tasks: 319, standard: "42 CFR Part 11, program written by an LLM coding assistant", records: "ClinicalTrials.gov, retrieved 2026-08-03"}

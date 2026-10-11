@@ -1,10 +1,9 @@
-The ObligationBench-R data (the task files under data/, manifest.json, and the
+The ObligationBench data (the task files under data/, manifest.json, and the
 reference predictions) are licensed under the Creative Commons Attribution 4.0
 International License (CC BY 4.0):
 https://creativecommons.org/licenses/by/4.0/legalcode
 
-Attribution: "ObligationBench-R, the benchmark of the paper 'PRIME: Precommitted
-Rules for Inference from Minimal Evidence in LLM-Based AI Agents' (authors
+Attribution: "ObligationBench, the benchmark of the paper 'PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents' (authors
 withheld for double-anonymous review; to be named at publication)."
 
 The records embedded in the tasks remain subject to their sources' terms, listed
