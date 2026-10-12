@@ -50,14 +50,20 @@ Prediction format and endpoint definitions: [docs/evaluation_protocol.md](docs/e
 |---|---|
 | `src/obligationbench/` | `tasks.py` (loading), `env.py` (the evidence actions and the ledger), `scoring.py` (endpoints), `stats.py` (family-level statistics), `export.py` (native task <-> dataset row), `validate.py` (integrity checks), `cli.py`; `predicates.py`, `instance_schema.py`, `closure.py` (original PRIME modules, vendored); `generation/` (the generators, vendored) |
 | `data/` | the dataset files (`balanced.jsonl`, `natural.jsonl`, `dev.jsonl`, `val.jsonl`, `locator.jsonl`, `onebranch.jsonl`, `text.jsonl`, `fdaaa.jsonl`), `manifest.json` with every task's SHA-256, `reference_predictions/`, `LICENSE` (CC BY 4.0), `NOTICE.md` (source terms) |
+| `inputs/` | the harvest of 2026-08-01 that the generators read, reduced to the fields they use (`harvest/`, 10 MB, with SHA-256 sums of the full and reduced files), and the generator's manifest of families and splits |
 | `configs/` | `corpus.yaml` (the generator's settings, for reference), `evaluation.yaml` (the scoring definitions) |
-| `scripts/` | `prepare_hf_dataset.py`, `validate_corpus.py`, `reproduce_corpus.py`, `reproduce_scores.py`, `check_anonymity.py`, `publish_hf_private.py`, `prepare_anonymous_package.sh` |
-| `tests/` | dataset integrity, benchmark semantics, scorer, reproducibility, publication hygiene |
+| `scripts/` | `prepare_hf_dataset.py`, `validate_corpus.py`, `reproduce_corpus.py`, `reduce_harvest.py`, `reproduce_scores.py`, `check_anonymity.py`, `publish_hf_private.py`, `prepare_anonymous_package.sh` |
+| `tests/` | dataset integrity, benchmark semantics, scorer, reproducibility (the corpus regenerates; the reference scores reproduce), conformance with the PRIME runtime (`fixtures/prime_conformance.json.gz`), publication hygiene |
 | `docs/` | methodology, data schema, benchmark generation, evaluation protocol, reproducibility, limitations, provenance and licensing, anonymous package, release checklist, the Hugging Face dataset card |
 
 ## Reproducibility
 
-`python scripts/validate_corpus.py` checks the corpus; `python scripts/reproduce_scores.py` scores the paper's reference predictions and compares with the paper; `pytest` runs the tests. What the generator reproduces and what it does not is stated in [docs/benchmark_generation.md](docs/benchmark_generation.md): the derived locator and text variants regenerate byte for byte from the published primary corpus; the 2026-08-01 primary corpus itself does not regenerate from the harvest available today, because the harvest files were extended after the corpus was frozen and were not versioned. The published task files, each with its record snapshot and hash, are the artifact of record.
+Two kinds, both checked by the tests and by the continuous-integration workflow:
+
+* **Scoring reproducibility.** `python scripts/validate_corpus.py` checks every task's structure, hash, and reference labels. `python scripts/reproduce_scores.py` scores the paper's reference predictions and compares them with the paper. It also accounts for every episode: 24 episodes, whose model calls timed out, are declared exclusions, and nothing else may be missing.
+* **Generator reproducibility.** `python scripts/reproduce_corpus.py` regenerates all 1,898 tasks of the primary corpus and of the one-branch, locator, and text variants from `inputs/harvest/`, and compares each with the published file byte for byte. The FDAAA set is built by the PRIME code from a third-party table.
+
+[docs/reproducibility.md](docs/reproducibility.md) has the details, and [docs/benchmark_generation.md](docs/benchmark_generation.md) what the generator does and why earlier versions did not reproduce the corpus.
 
 ## Licenses and provenance
 
@@ -65,4 +71,4 @@ Code: MIT. Data: CC BY 4.0, with the embedded records under their sources' terms
 
 ## Status
 
-Private, under double-anonymous review. Author names, citation, and links are withheld and will be filled in at publication (see `CITATION.cff` and [docs/release_checklist.md](docs/release_checklist.md)).
+Under double-anonymous review. Author names, the citation, and links are withheld and will be filled in at publication (see `CITATION.cff` and [docs/release_checklist.md](docs/release_checklist.md)).

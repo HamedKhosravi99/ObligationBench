@@ -129,3 +129,35 @@ def test_legacy_reads_and_actions_agree(toy_task):
     a = score_task(toy_task, ["C2"], reads)
     b = score_task(toy_task, ["C2"], [{"inspect_record": r} for r in reads])
     assert {k: v for k, v in a.items()} == {k: v for k, v in b.items()}
+
+
+def test_conflicting_attestations_settle_nothing(toy_task):
+    """As in PRIME's four-valued ledger: T then F leaves the check conflicted and
+    unsettled; a repeated identical value changes nothing."""
+    env = RecordEnv(toy_task)
+    env.read_text("REC-1", "details")
+    assert env.attest_atom("E6", "T", "fixed in version 2.3.1")["accepted"]
+    assert env.attest_atom("E6", "T", "fixed in version 2.3.1")["accepted"]
+    assert env.ledger["E6"] == "T" and not env.conflicts
+    assert env.attest_atom("E6", "F", "fixed in version 2.3.1")["accepted"]
+    assert "E6" not in env.ledger and env.conflicts == {"E6"}
+    env.attest_atom("E6", "T", "fixed in version 2.3.1")
+    assert "E6" not in env.ledger                       # stays conflicted
+
+
+def test_distinct_calls_count_call_classes(toy_task):
+    actions = [{"inspect_record": ["REC-1", "title"]}, {"inspect_record": ["REC-1", "title"]},
+               {"inspect_record": ["REC-1", "published"]}]
+    row = score_task(toy_task, ["C1"], actions)
+    assert row["tool_calls"] == 3 and row["distinct_calls"] == 2
+
+
+def test_attestation_classes_depend_on_the_source_being_read(toy_task):
+    """As in PRIME's executor: an attestation made before the source text was read
+    and the same one made after it are two call classes; a later repeat is not."""
+    env = RecordEnv(toy_task)
+    assert not env.attest_atom("E6", "T", "fixed in version 2.3.1")["accepted"]
+    env.read_text("REC-1", "details")
+    assert env.attest_atom("E6", "T", "fixed in version 2.3.1")["accepted"]
+    env.attest_atom("E6", "T", "fixed in version 2.3.1")
+    assert env.calls == 3 and len(env.actions) == 4

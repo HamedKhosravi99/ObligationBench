@@ -1,4 +1,4 @@
-# Vendored from pilot/bench/generate_text_instances.py of the PRIME code; only the import lines and the
+# Vendored from bench/generate_text_instances.py of the PRIME code; only the import lines and the
 # bench directory (OBLIGATIONBENCH_BENCH_DIR) were changed. See docs/benchmark_generation.md.
 #!/usr/bin/env python3
 """The text-evidence split (heldout_text): atoms whose evidence is free text

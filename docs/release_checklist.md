@@ -1,24 +1,25 @@
 # Release checklist
 
-Both repositories stay **private** until the authorized milestone. No step here changes visibility.
+Visibility of the repositories and the dataset is the owner's decision; no step here changes it.
 
 ## Before any upload
 
 - [ ] `python scripts/validate_corpus.py` passes
-- [ ] `python scripts/reproduce_scores.py` prints "all agents match the paper"
+- [ ] `python scripts/reproduce_scores.py` prints "all 15 agents match their reference values" and reports no missing prediction beyond the declared exclusions
+- [ ] `python scripts/reproduce_corpus.py` regenerates every task identically
 - [ ] `pytest` passes (with `OBLIGATIONBENCH_BENCH_DIR` set for the original-file comparison)
 - [ ] `python scripts/check_anonymity.py` finds no identifying string, path, account, or token in the dataset directory and the code
 - [ ] `git log` and tracked files contain no secrets (`git grep -I -E 'hf_[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{20,}'` is empty)
 - [ ] `data/NOTICE.md` lists every source and its terms; the FDAAA TrialsTracker table is absent
 - [ ] the dataset card's YAML lists every configuration and every file exists
 
-## Private Hugging Face dataset
+## Hugging Face dataset
 
 - [ ] `hf auth login` done by the owner; `HF_NAMESPACE` set in the environment
 - [ ] `python scripts/publish_hf_private.py --dataset-dir dist/obligationbench-dataset --repo <namespace>/ObligationBench --confirm` (creates the repository private, uploads, verifies visibility, counts, authenticated load, and unauthenticated refusal, prints the commit id)
 - [ ] the dataset viewer shows the eight configurations
 
-## Private GitHub code repository
+## GitHub code repository
 
 - [ ] `gh repo create <owner>/obligationbench --private --source . --push` from the code directory (ask before creating)
 - [ ] no release, tag, or DOI yet

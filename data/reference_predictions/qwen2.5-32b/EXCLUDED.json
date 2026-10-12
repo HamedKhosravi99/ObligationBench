@@ -1,0 +1,44 @@
+{
+ "excluded": {
+  "conformal": [
+   "cli-v2-0148",
+   "cli-v2-0193",
+   "dru-v2-0123",
+   "sec-v2-0027",
+   "sec-v2-0058"
+  ],
+  "cove": [
+   "dru-v2-0084",
+   "dru-v2-0147",
+   "fin-v2-0222",
+   "sec-v2-0088"
+  ],
+  "react": [
+   "dru-v2-0123",
+   "dru-v2-0147",
+   "sec-v2-0170",
+   "sec-v2-0178"
+  ],
+  "react_spec_verify": [
+   "cli-v2-0119"
+  ],
+  "react_verify": [
+   "dru-v2-0080",
+   "dru-v2-0164",
+   "dru-v2-0178"
+  ],
+  "reflexion": [
+   "cli-v2-0148",
+   "cli-v2-0185",
+   "cli-v2-0193",
+   "dru-v2-0084",
+   "dru-v2-0170",
+   "sec-v2-0164"
+  ],
+  "static_contract": [
+   "sec-v2-0194"
+  ]
+ },
+ "rule": "the episode's model calls timed out after the client's retries; it carries no measurement and is left out of every rate",
+ "tasks_per_agent": 480
+}

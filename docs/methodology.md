@@ -14,7 +14,7 @@ The reference value of every check is computed by running its predicate on the s
 
 ## What an agent sees
 
-An agent given the rule sees the request, the scope, the conclusions and their order, each check's tool, parameters, and predicate, and the routes. An agent that must learn which evidence suffices sees the conclusions and checks but not the routes. An agent that must construct the standard sees only the request, scope, and tools. No agent sees reference values. `RecordEnv.agent_view()` returns the first view; drop `routes` for the second.
+An agent given the rule sees the request, the scope, the conclusions and their order, each check's tool, parameters, and predicate, and the routes. Two further settings are possible but are not studied in the paper's experiments: an agent that must learn which evidence suffices sees the conclusions and checks but not the routes, and an agent that must construct the standard sees only the request, scope, and tools. No agent sees reference values. `RecordEnv.agent_view()` returns the first view; drop `routes` for the second.
 
 ## What an agent does
 
@@ -26,4 +26,4 @@ See docs/evaluation_protocol.md. The scorer replays the recorded actions, rebuil
 
 ## Splits and variants
 
-The primary corpus (938 tasks) is split by template family: 60 families are held out (balanced and natural splits), 48 are development, 12 are validation. The derived variants (locator, onebranch, text) are built for specific experiments from the frozen primary corpus or from new records and are not part of the 938. The fdaaa configuration applies a hand-compiled regulation to other records. See docs/data_schema.md for the fields and docs/benchmark_generation.md for how they were made.
+The primary corpus (938 tasks) is split by template family: 60 families are held out (balanced and natural splits), 48 are development, 12 are validation. The derived variants (locator, onebranch, text) are built for specific experiments from the frozen primary corpus or from new records and are not part of the 938. The fdaaa configuration applies a regulation (42 CFR Part 11), encoded as a program written by an LLM coding assistant, to other records. See docs/data_schema.md for the fields and docs/benchmark_generation.md for how they were made.

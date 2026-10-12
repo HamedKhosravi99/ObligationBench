@@ -3,12 +3,15 @@ import glob
 import hashlib
 import json
 import os
+import subprocess
+import sys
 
 import pytest
 
 from obligationbench.export import check_round_trip, row_to_task, task_to_row
 from obligationbench.tasks import load_tasks
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BENCH = os.environ.get("OBLIGATIONBENCH_BENCH_DIR")  # the generator's output root with the original task files
 
 
@@ -57,37 +60,30 @@ def test_generator_seed_recorded(rows, manifest):
     assert all(r["generator_seed"] == 20260801 for rs in rows.values() for r in rs)
 
 
-def test_fixed_seed_generation_is_deterministic(tmp_path):
-    """Two runs of the record generator on the same harvest with the same seed produce
-    identical task files. Uses the first 40 harvested security records and small quotas
-    so the test runs in seconds; requires OBLIGATIONBENCH_BENCH_DIR for the harvest."""
-    if not BENCH:
-        pytest.skip("set OBLIGATIONBENCH_BENCH_DIR to the harvest")
-    from obligationbench.generation import run_generator
-    outs = []
-    for i in range(2):
-        d = tmp_path / ("run%d" % i)
-        (d / "harvest" / "security").mkdir(parents=True)
-        src = os.path.join(BENCH, "harvest", "security", "records.jsonl")
-        with open(src, encoding="utf-8") as fh, open(d / "harvest" / "security" / "records.jsonl", "w", encoding="utf-8") as out:
-            for k, line in enumerate(fh):
-                if k >= 40:
-                    break
-                out.write(line)
-        os.environ["OBLIGATIONBENCH_BENCH_DIR"] = str(d)
-        try:
-            import importlib
-            import obligationbench.generation.record_tasks as rt
-            importlib.reload(rt)
-            rc = run_generator("records", ["--domains", "security", "--balanced-per-domain", "4", "--natural-per-domain", "2", "--dev-per-domain", "2"])
-        finally:
-            os.environ["OBLIGATIONBENCH_BENCH_DIR"] = BENCH
-            importlib.reload(rt)
-        assert rc == 0
-        files = sorted(glob.glob(str(d / "instances_v2" / "security" / "*" / "*.json")))
-        assert files
-        outs.append({os.path.relpath(f, d): hashlib.sha256(open(f, "rb").read()).hexdigest() for f in files})
-    assert outs[0] == outs[1]
+@pytest.mark.parametrize("hash_seed", ["1", "2"])
+def test_corpus_regenerates_from_shipped_inputs(hash_seed):
+    """Every task of the primary corpus and of the one-branch, locator, and text
+    variants regenerates byte for byte from inputs/ (the harvest reduced to the fields
+    the generators read), in a fresh interpreter with the given string-hash seed. An
+    earlier generator seeded its family enumeration with hash(domain), which Python
+    randomizes per process, so runs in separate processes enumerated different
+    families; two seeds check that the output no longer depends on it."""
+    env = dict(os.environ, PYTHONHASHSEED=hash_seed)
+    env.pop("OBLIGATIONBENCH_BENCH_DIR", None)
+    p = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "reproduce_corpus.py")],
+                       env=env, capture_output=True, text=True)
+    assert p.returncode == 0, p.stdout[-3000:] + p.stderr[-3000:]
+    assert "all published tasks regenerated identically" in p.stdout
+
+
+def test_reference_scores_and_denominators(data_dir):
+    """The reference predictions reproduce the values the paper prints, and every task
+    without a prediction is a declared exclusion (data/reference_predictions/<model>/
+    EXCLUDED.json: episodes whose model calls timed out); nothing else is missing."""
+    p = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "reproduce_scores.py")],
+                       capture_output=True, text=True)
+    assert p.returncode == 0, p.stdout[-3000:] + p.stderr[-3000:]
+    assert "no other prediction missing" in p.stdout
 
 
 def test_hf_datasets_loads_local_files(data_dir):

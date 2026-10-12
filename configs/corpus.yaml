@@ -10,6 +10,8 @@ sources:
   drugsafety: openFDA drug enforcement endpoint, retrieved 2026-08-01
   financial: SEC EDGAR XBRL company facts, retrieved 2026-08-01
 families_per_domain: 30          # 20 branching + 10 nested, enumerated deterministically from the domain's probe pool
+family_seed_offset: {security: 472, clinical: 363, drugsafety: 94, financial: 382}             # the primary corpus; random.Random(seed + offset)
+one_branch_family_seed_offset: {security: 965, clinical: 547, drugsafety: 464, financial: 866}  # the one-branch run of 2026-10-08
 family_splits: {dev: 0.4, val: 0.1, heldout: 0.5}   # families are held out whole
 quotas_per_domain:
   dev: 48
@@ -20,7 +22,7 @@ strata_cycle: [3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 3, 2, 1, 0, 3, 2]   # target strong
 false_mechanism_cycle: [true, true, false, true, false, true, false]   # degrade by a false check, else by unavailable evidence
 derived_variants:
   locator:   {per_domain: 120, candidates_per_check: 3, derived_from: heldout_balanced}
-  onebranch: {per_domain: 60, families: branching held-out families, records: unused elsewhere}
+  onebranch: {per_domain: 60, families: 40 branching families of a separate enumeration (ids local to the variant), records: unused elsewhere, id_base: 9000}
   text:      {per_domain: 120, domains: [clinical, security], id_base: 7000}
 external_standard:
   fdaaa: {tasks: 319, standard: "42 CFR Part 11, program written by an LLM coding assistant", records: "ClinicalTrials.gov, retrieved 2026-08-03"}

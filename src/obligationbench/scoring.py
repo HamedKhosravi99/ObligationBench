@@ -46,6 +46,10 @@ Endpoints
                           on which the agent stated anything
     evidence recall       share of the checks on the task's routes that the actions
                           settled
+    tool calls            recorded evidence actions (``tool_calls``), and the
+                          distinct call classes among them (``distinct_calls``),
+                          which is what PRIME's budget charges: its executor serves
+                          an identical repeat from a cache
     resolver error        text-evidence tasks: share of accepted attestations whose
                           value differs from the reference value
 """
@@ -166,6 +170,8 @@ def score_task(task: Task, stated: Sequence[str], actions: Optional[Sequence[Any
         row["evidence_value"] = 100.0 * max([lv[c] for c in est] + [0]) / top
         row["reads"] = len(env.reads)
         row["tool_calls"] = len(env.actions)
+        row["distinct_calls"] = env.calls
+        row["conflicted_checks"] = len(env.conflicts)
         row["evidence_recall"] = (sum(1 for a in on_routes if a in env.ledger) / len(on_routes)) if on_routes else 0.0
         gold = reference_values(task)
         acc = [a for a in env.attestations if a.get("accepted")]
@@ -196,6 +202,7 @@ def summarize(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         out["evidence_recall_pct"] = 100.0 * sum(r["evidence_recall"] for r in with_actions) / m
         out["mean_reads"] = sum(r["reads"] for r in with_actions) / m
         out["mean_tool_calls"] = sum(r["tool_calls"] for r in with_actions) / m
+        out["mean_distinct_calls"] = sum(r["distinct_calls"] for r in with_actions) / m
     text = [r for r in rows if "attestations_accepted" in r]
     if text:
         acc = sum(r["attestations_accepted"] for r in text)
@@ -252,7 +259,8 @@ def score(tasks: Dict[str, Task], predictions: Iterable[Dict[str, Any]],
 def format_result(result: Dict[str, Any]) -> str:
     cols = [("n", "%d"), ("false_authorization_pct", "%.1f"), ("premature_pct", "%.1f"), ("utility", "%.1f"),
             ("evidence_value", "%.1f"), ("emission_rate_pct", "%.1f"), ("abstention_pct", "%.1f"),
-            ("evidence_recall_pct", "%.1f"), ("mean_tool_calls", "%.2f"), ("resolver_error_pct", "%.1f")]
+            ("evidence_recall_pct", "%.1f"), ("mean_tool_calls", "%.2f"), ("mean_distinct_calls", "%.2f"),
+            ("resolver_error_pct", "%.1f")]
     head = ["group"] + [c for c, _ in cols]
     lines = [head]
     groups = [("overall", result["overall"])]

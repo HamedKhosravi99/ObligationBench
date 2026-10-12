@@ -1,4 +1,4 @@
-# Vendored from pilot/bench/harvest_records.py of the PRIME code; only the bench directory
+# Vendored from bench/harvest_records.py of the PRIME code; only the bench directory
 # (OBLIGATIONBENCH_BENCH_DIR) was changed. Live retrieval does not reproduce the frozen harvest.
 #!/usr/bin/env python3
 """Bulk record harvest for the v5 benchmark generator (EXECUTION_PLAN v5,

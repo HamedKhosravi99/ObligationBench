@@ -1,11 +1,12 @@
-# Vendored from pilot/bench/generate_record_instances.py of the PRIME code (the generator of the
+# Vendored from bench/generate_record_instances.py of the PRIME code (the generator of the
 # published corpus; see docs/benchmark_generation.md for its version history). Changes made for this
 # package: (1) the import lines point at the package's copies of the predicate grammar and the task
 # schema; (2) the harvest and output directories come from OBLIGATIONBENCH_BENCH_DIR (default ./bench)
 # instead of the script's own directory; (3) verify() executes resolvers with the package's RecordEnv
 # instead of the PRIME runtime's ToolExecutor and gold ledger (same predicate code, same fail-closed
 # rule: every field-reading check must execute to its stored reference value or the task is dropped).
-# Everything else is the original text.
+# Everything else is the original text, including the pinned family-seed offsets and the one-branch
+# note key, which the PRIME generator carries too (see docs/benchmark_generation.md).
 #!/usr/bin/env python3
 """Template-family instance generator (EXECUTION_PLAN v5, Part 4 / W0.4).
 
@@ -51,6 +52,7 @@ import json
 import os
 import random
 import sys
+import zlib
 from typing import Any, Dict, List, Optional, Tuple
 
 HERE = os.environ.get("OBLIGATIONBENCH_BENCH_DIR", os.path.abspath("bench"))
@@ -59,6 +61,21 @@ from ..predicates import evaluate_predicate, format_predicate_rule  # noqa: E402
 from ..instance_schema import SchemaError, load_instance  # noqa: E402
 
 SEED = 20260801
+# Offsets of the family-enumeration seed, per domain. Earlier versions drew them as
+# hash(domain) % 1000, which Python randomizes in every process (PYTHONHASHSEED), so
+# each run enumerated different families from the same seed. These are the offsets
+# the published files were generated with, recovered by matching the enumerated
+# families against them: the primary corpus (run of 2026-08-01) and the one-branch
+# variant (run of 2026-10-08, which drew its own offsets, so its family ids name
+# other probe sets than the same ids in the primary corpus). A domain not listed
+# gets a stable offset from its name.
+FAMILY_SEED_OFFSET = {"security": 472, "clinical": 363, "drugsafety": 94, "financial": 382}
+ONE_BRANCH_FAMILY_SEED_OFFSET = {"security": 965, "clinical": 547, "drugsafety": 464, "financial": 866}
+
+
+def family_rng(domain: str, offsets: Dict[str, int] = FAMILY_SEED_OFFSET) -> random.Random:
+    off = offsets.get(domain, zlib.crc32(domain.encode("utf-8")) % 1000)
+    return random.Random(SEED + off)
 OUT = os.path.join(HERE, "instances_v2")
 
 # ---------------------------------------------------------------------------
@@ -656,7 +673,8 @@ def build_instance(domain: str, fam: Dict[str, Any], rec_row: Dict[str, Any],
             "cost": fam["cost"], "target_level": target_level,
             "false_mech": bool(false_mech and (one_branch or (
                 target_level is not None and target_level < 3))),
-            "one_branch": bool(one_branch)}),
+            # the key appears on one-branch tasks only, as in the published files
+            **({"one_branch": True} if one_branch else {})}),
     }
     return inst, ""
 
@@ -689,7 +707,7 @@ def generate_one_branch(domains, per_domain: int, seq_base: int) -> int:
     manifest = json.load(open(mpath)) if os.path.exists(mpath) else {"seed": SEED, "domains": {}}
     manifest.setdefault("one_branch", {})
     for domain in domains:
-        fams = enumerate_families(domain, random.Random(SEED + hash(domain) % 1000))
+        fams = enumerate_families(domain, family_rng(domain, ONE_BRANCH_FAMILY_SEED_OFFSET))
         heldout = {fid for fid, info in manifest["domains"][domain]["families"].items()
                    if info["split"] == "heldout" and info["topology"] == "branching"}
         fams = [f for f in fams if f["family_id"] in heldout]
@@ -826,7 +844,7 @@ def main() -> int:
     os.makedirs(tmpdir, exist_ok=True)
 
     for domain in args.domains:
-        fams = enumerate_families(domain, random.Random(SEED + hash(domain) % 1000))
+        fams = enumerate_families(domain, family_rng(domain))
         # family splits 40/10/50 per topology
         splits: Dict[str, str] = {}
         for topo in ("branching", "nested"):

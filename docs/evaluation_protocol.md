@@ -15,7 +15,7 @@ One JSON object per task:
 * `actions`: the evidence actions in the order they were made: `{"inspect_record": [record_id, field_path]}`, `{"read_text": [record_id, field_path]}`, `{"attest_atom": [atom_id, value, quote]}`. The legacy key `reads`, a list of `[record_id, field_path]` pairs, is accepted for `inspect_record` reads only.
 * Other keys (`agent`, `model`, `budget`, `calls`, `note`) are kept for bookkeeping and ignored by the scorer.
 
-Malformed records (missing `task_id`, `stated` not a list, unknown conclusion ids, duplicate task ids, predictions for tasks not in the file) raise `PredictionError`; the CLI exits with status 2. A task without a prediction counts as an abstention by default (`--missing error` makes it an error).
+Malformed records (missing `task_id`, `stated` not a list, unknown conclusion ids, duplicate task ids, predictions for tasks not in the file) raise `PredictionError`; the CLI exits with status 2. A task without a prediction counts as an abstention by default (`--missing error` makes it an error). `missing="skip"` leaves such tasks out of the denominators and reports their number as `n_missing`; use it only for a declared exclusion rule, as `scripts/reproduce_scores.py` does for the paper's episodes whose model calls timed out (`data/reference_predictions/<model>/EXCLUDED.json`), and report the excluded tasks.
 
 ## Scoring
 
@@ -34,14 +34,14 @@ For every task the scorer replays the actions through `RecordEnv`, which settles
 | emission rate (%) | answerable tasks (some conclusion is supported) on which the agent stated anything |
 | abstention (%) | tasks with no stated conclusion |
 | evidence recall (%) | checks on the task's routes that the actions settled |
-| mean tool calls, mean reads | per task |
+| mean tool calls, mean distinct calls | per task: every recorded action, and the distinct call classes among them (tool and arguments, and for `attest_atom` whether its source text had been read), which is what PRIME's budget charges, since its executor serves an identical repeat from a cache |
 | resolver error (%) | text tasks: accepted attestations whose value differs from the reference value; also the share of episodes with at least one such attestation |
 
 The per-task rows (`--rows`) carry `record`, `family`, `domain`, `topology`, and every endpoint, so family-level contrasts can be computed with `obligationbench.stats` (see below).
 
 ## Text-evidence tasks
 
-An attestation is accepted when the check's source text was read earlier in the episode and the quote, whitespace-normalized and case-insensitive, occurs in it and has at least eight characters. Acceptance checks occurrence, not meaning: an accepted quote need not entail the asserted condition. The attested value is recorded as given and scored against the reference value, which comes from a structured field withheld from the agent. The gap between "the quote occurs", "the quote supports the assertion", and "the assertion agrees with the reference field" is the resolver-error term; there is no human-adjudicated entailment set.
+An attestation is accepted when the check's source text was read earlier in the episode and the quote, whitespace-normalized and case-insensitive, occurs in it and has at least eight characters. A check that receives both values (T, then F) is conflicted and settles nothing, as in PRIME's four-valued ledger; a repeated identical attestation changes nothing. Acceptance checks occurrence, not meaning: an accepted quote need not entail the asserted condition. The attested value is recorded as given and scored against the reference value, which comes from a structured field withheld from the agent. The gap between "the quote occurs", "the quote supports the assertion", and "the assertion agrees with the reference field" is the resolver-error term; there is no human-adjudicated entailment set.
 
 ## Settings an agent can be run in
 
@@ -50,8 +50,8 @@ The scorer is the same for all; what differs is what the agent is shown.
 | Setting | Agent sees | Routes |
 |---|---|---|
 | supplied standard | `specification_view` | given |
-| learned sufficiency (S2) | `specification_view` without `routes` | the agent infers them before acting |
-| constructed standard (S1) | request, scope, tools | the agent proposes conclusions, checks, and routes |
+| learned sufficiency | `specification_view` without `routes` | the agent infers them before acting |
+| constructed standard | request, scope, tools | the agent proposes conclusions, checks, and routes |
 
 Document which setting a reported number used; the paper's main results use the supplied standard.
 

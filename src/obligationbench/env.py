@@ -22,8 +22,19 @@ and records, as a *ledger*, which checks the agent's actions have settled:
     the value is then recorded as the agent gave it, right or wrong.
 
 Checks whose evidence is unavailable in the task (no resolver) can never be
-settled. The acceptance rules are those of the PRIME runtime's tool executor
-(``runner/arms.py``), ported here so that scoring needs no part of PRIME.
+settled. A check that receives disagreeing values (an agent attests T and later
+F) is *conflicted* and settles nothing (``conflicts``), as in the PRIME runtime's
+four-valued ledger, where a conflict stays until a retraction, which no agent
+action provides. The acceptance rules are those of the PRIME runtime's tool
+executor (``runner/arms.py``), ported here so that scoring needs no part of
+PRIME; tests/test_conformance.py checks them against outcomes the runtime
+produced.
+
+``actions`` records every action in order; ``calls`` counts the distinct call
+classes among them, which is what PRIME's executor charges against the budget: it
+serves an identical repeat from its cache. A call class is the tool and its
+arguments as given, and for ``attest_atom`` also whether the check's source text
+had been read, since the outcome depends on it.
 """
 from __future__ import annotations
 
@@ -38,7 +49,10 @@ MIN_QUOTE_CHARS = 8
 class RecordEnv:
     def __init__(self, task: Task) -> None:
         self.task = task
-        self.ledger: Dict[str, str] = {}          # atom id -> "T" | "F"
+        self.ledger: Dict[str, str] = {}          # atom id -> "T" | "F" (settled checks)
+        self.conflicts: set = set()                # checks that received both values
+        self._seen: Dict[str, set] = {}            # atom id -> values received
+        self._classes: set = set()                 # distinct call classes
         self.reads: List[Tuple[str, str]] = []     # (record_id, field_path) of inspect_record
         self.texts_read: Dict[Tuple[str, str], str] = {}
         self.attestations: List[Dict[str, Any]] = []
@@ -49,6 +63,7 @@ class RecordEnv:
         record_id, field_path = str(record_id), str(field_path)
         self.reads.append((record_id, field_path))
         self.actions.append({"inspect_record": [record_id, field_path]})
+        self._classes.add(("inspect_record", record_id, field_path))
         obs: Dict[str, Any] = {"record_id": record_id, "field_path": field_path}
         records = self.task.get("records") or {}
         if record_id not in records:
@@ -71,12 +86,13 @@ class RecordEnv:
                 continue
             result = evaluate_predicate(parsed[0], parsed[1], value)
             if result is not None:
-                self.ledger[atom["id"]] = "T" if result else "F"
+                self._settle(atom["id"], "T" if result else "F")
         return obs
 
     def read_text(self, record_id: str, field_path: str) -> Dict[str, Any]:
         record_id, field_path = str(record_id), str(field_path)
         self.actions.append({"read_text": [record_id, field_path]})
+        self._classes.add(("read_text", record_id, field_path))
         records = self.task.get("records") or {}
         rec = records.get(record_id)
         if rec is None:
@@ -88,6 +104,7 @@ class RecordEnv:
         return {"record_id": record_id, "field_path": field_path, "text": value}
 
     def attest_atom(self, atom_id: str, value: str, quote: str) -> Dict[str, Any]:
+        self._classes.add(("attest_atom", str(atom_id), str(value), str(quote), self._source_read(str(atom_id))))
         atom_id = str(atom_id)
         value = str(value).strip().upper()
         quote = " ".join(str(quote).split())
@@ -111,9 +128,28 @@ class RecordEnv:
                        "reason": "the quote must occur verbatim in the source text"}
             else:
                 out = {"atom_id": atom_id, "accepted": True, "value": value, "quote": quote}
-                self.ledger[atom_id] = value
+                self._settle(atom_id, value)
         self.attestations.append(dict(out))
         return out
+
+    def _settle(self, atom_id: str, value: str) -> None:
+        seen = self._seen.setdefault(atom_id, set())
+        seen.add(value)
+        if len(seen) == 1:
+            self.ledger[atom_id] = value
+        else:
+            self.ledger.pop(atom_id, None)
+            self.conflicts.add(atom_id)
+
+    def _source_read(self, atom_id: str) -> bool:
+        atom = next((a for a in self.task.get("atoms", []) if a["id"] == atom_id), None)
+        src = ((atom or {}).get("spec_hint") or {}).get("source") or {}
+        return (str(src.get("record_id", "")), str(src.get("field_path", ""))) in self.texts_read
+
+    @property
+    def calls(self) -> int:
+        """Distinct call classes among the actions (what PRIME's budget charges)."""
+        return len(self._classes)
 
     # ------------------------------------------------------------ replay
     def replay(self, actions: Sequence[Any]) -> None:

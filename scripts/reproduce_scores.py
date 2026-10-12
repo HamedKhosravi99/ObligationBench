@@ -6,10 +6,17 @@ reference predictions with the released scorer, and compare with the paper.
 
 The reference predictions (data/reference_predictions/<model>/<agent>.jsonl) were
 rebuilt from the paper's episode logs using only the stated conclusions and the
-recorded reads. For the nine agents of the paper's Experiment A the expected values
+recorded reads. For the nine agents of the paper's information ladder (Section 6.1) the expected values
 are those the paper prints (Table 1 and Figure 3); the six further baselines are
 reference values from the released logs, which the paper does not report. The
-script exits nonzero on any difference above 0.05."""
+script exits nonzero on any difference above 0.05.
+
+Denominators. Every agent ran on all 480 tasks. An episode whose model calls
+still timed out after the client's retries carries no measurement, has no
+reference prediction, and is left out of the rates (24 episodes over the 15
+agents, at most 6 for one agent). data/reference_predictions/<model>/EXCLUDED.json
+lists them with the rule; the script reports, per agent, the tasks, the excluded
+episodes, and the scored ones, and fails if any other task lacks a prediction."""
 from __future__ import annotations
 
 import argparse
@@ -53,8 +60,13 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
     tasks = load_tasks(os.path.join(a.data, "balanced.jsonl"))
     pred_dir = os.path.join(a.data, "reference_predictions", a.model)
-    bad, n = [], 0
-    print("%-34s %4s %6s %6s %6s %6s %6s" % ("agent", "n", "FA%", "prem%", "util", "emit%", "evid"))
+    excl_path = os.path.join(pred_dir, "EXCLUDED.json")
+    excluded = {}
+    if os.path.exists(excl_path):
+        with open(excl_path, encoding="utf-8") as fh:
+            excluded = json.load(fh)["excluded"]
+    bad, n, n_excl = [], 0, 0
+    print("%-34s %5s %5s %4s %6s %6s %6s %6s %6s" % ("agent", "tasks", "excl", "n", "FA%", "prem%", "util", "emit%", "evid"))
     for agent, (name, *exp) in EXPECTED.items():
         p = os.path.join(pred_dir, agent + ".jsonl")
         if not os.path.exists(p):
@@ -63,9 +75,17 @@ def main(argv=None) -> int:
             continue
         with open(p, encoding="utf-8") as fh:
             preds = [json.loads(l) for l in fh if l.strip()]
-        got = score(tasks, preds, missing="skip")["overall"]   # as in the paper: episodes that failed to run carry no measurement
+        # the declared exclusions, and nothing else, may lack a prediction
+        without = set(tasks) - {q["task_id"] for q in preds}
+        declared = set(excluded.get(agent, ()))
+        if without != declared:
+            bad.append("%s: tasks without a prediction %s, declared exclusions %s"
+                       % (name, sorted(without)[:5], sorted(declared)[:5]))
+        n_excl += len(declared)
+        got = score(tasks, preds, missing="skip")["overall"]
         vals = [got.get(k) for k in KEYS]
-        print("%-34s %4d %6.1f %6.1f %6.1f %6.1f %6s" % (name, got["n"], *vals[:4], ("%.1f" % vals[4]) if vals[4] is not None else "-"))
+        print("%-34s %5d %5d %4d %6.1f %6.1f %6.1f %6.1f %6s" % (name, len(tasks), got["n_missing"], got["n"], *vals[:4],
+                                                              ("%.1f" % vals[4]) if vals[4] is not None else "-"))
         n += 1
         for k, g, x in zip(KEYS, vals, exp):
             if x is None or g is None:
@@ -75,7 +95,8 @@ def main(argv=None) -> int:
     if bad:
         print("DIFFERENCES:"); [print(" ", b) for b in bad]
         return 1
-    print("all %d agents match their reference values" % n)
+    print("all %d agents match their reference values; %d episodes excluded as declared in EXCLUDED.json, "
+          "no other prediction missing" % (n, n_excl))
     return 0
 
 

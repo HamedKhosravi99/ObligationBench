@@ -85,7 +85,7 @@ The **primary corpus** is 938 tasks in four splits. The **derived variants** are
 | `dev` | 192 | 48 | primary | development, families disjoint from the held-out ones |
 | `val` | 48 | 12 | primary | validation, families disjoint from the held-out ones |
 | `locator` | 480 | 60 | variant of `balanced` | each task is a copy of a balanced task (`parent_task_id`) in which every check withholds its field and instead gives a description and three candidate fields, the true one among them |
-| `onebranch` | 240 | 40 | variant | new records from the 40 branching held-out families, in which exactly one of the two routes to the middle conclusion is degraded |
+| `onebranch` | 240 | 40 | variant | new records on 40 branching families, in which exactly one of the two routes to the middle conclusion is degraded; the families were enumerated in a separate run, none coincides with a primary-corpus family, and their ids are local to this variant |
 | `text` | 240 | 2 | variant | clinical and security tasks whose three upper checks are judgments on a free-text field, attested by the agent with a verbatim quote and scored against structured fields withheld from it |
 | `fdaaa` | 319 | 124 | external standard | the U.S. results-reporting regulation (42 CFR Part 11), with the program written by an LLM coding assistant, applied to ClinicalTrials.gov registrations (domain `fdaaa_ctgov`; some checks have the reference value `U`, unresolved, when the registry holds no submission date) |
 
@@ -119,6 +119,24 @@ Every row carries the complete task in its native format (`task_json`) plus flat
 | `generator_seed`, `generator_version`, `schema_version`, `task_sha256` | provenance; `manifest.json` lists every task's hash |
 | `task_json` | the complete native task |
 
+> **Evaluator-only fields.** Rows carry the hidden reference values (`reference_atom_values`, `reference_supported_conclusions`, `strongest_supported_level`, `answerable`), the complete native task with its labels (`task_json`), and the full record (`record_json`), because the scorer needs them. Never give a whole row to an evaluated agent: it would see the answers, and the evaluation of evidence acquisition would be void. Give it `specification_view`, which is exactly `RecordEnv(task).agent_view()`, or `obligationbench.export.agent_visible(row)`, and let it reach the record only through the evidence actions, which the scorer replays against the frozen record.
+
+```python
+import json
+from datasets import load_dataset
+from obligationbench import RecordEnv, score
+from obligationbench.export import row_to_task
+
+rows = load_dataset("<namespace>/ObligationBench", "balanced", split="test")
+row = rows[0]
+view = json.loads(row["specification_view"])   # show this to the agent: request, conclusions, checks, routes; no values
+task = row_to_task(row)                        # evaluator side only: holds the labels
+env = RecordEnv(task)                          # route the agent's tool calls through env
+obs = env.inspect_record(view["checks"][0]["record_id"], view["checks"][0]["field_path"])
+prediction = {"task_id": row["task_id"], "stated": ["C1"], "actions": env.actions}
+print(score({task["id"]: task}, [prediction])["overall"])
+```
+
 Records change over time. Every task embeds the snapshot it was built from, so results do not depend on when the benchmark is run.
 
 ## Running an agent and scoring it
@@ -151,7 +169,7 @@ On text tasks the runtime accepts an attestation only when the source text was r
 
 ## Generation
 
-The generator (code repository, `obligationbench generate`) enumerates 30 families per domain (20 branching, 10 nested) from a per-domain pool of field probes, assigns families to dev/val/held-out splits (40/10/50, families held out whole), instantiates each family on records, degrades a route (a false check or unavailable evidence) to create unsupported conclusions, computes the reference values by running every check, and keeps a task only if its checks execute to the stored values. From the frozen primary corpus it regenerates the `locator` variant (480/480 identical) and the `text` variant (240/240 identical). It does **not** reproduce the 2026-08-01 primary corpus or the `onebranch` variant from the harvest available today: the harvested record files were extended after the corpus was frozen and were not versioned. The published task files, each with its record snapshot and SHA-256 hash, are the artifact of record.
+The generator (code repository, `obligationbench generate`) enumerates 30 families per domain (20 branching, 10 nested) from a per-domain pool of field probes, assigns families to dev/val/held-out splits (40/10/50, families held out whole), instantiates each family on records, degrades a route (a false check or unavailable evidence) to create unsupported conclusions, computes the reference values by running every check, and keeps a task only if its checks execute to the stored values. It regenerates every published task byte for byte (the 938 primary tasks and the `onebranch`, `locator`, and `text` variants, 1,898 in all) from the harvest of 2026-08-01, which the code repository ships reduced to the fields the generator reads (`scripts/reproduce_corpus.py`). An earlier version seeded its family enumeration with Python's per-process string hash, so separate runs drew different families; the seed offsets of the published runs were recovered and are pinned. The published task files, each with its record snapshot and SHA-256 hash, remain the artifact of record.
 
 ## Intended uses and limitations
 
