@@ -1,0 +1,29 @@
+name: checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install
+        run: pip install -e . pytest ruff
+      - name: Lint (syntax errors and undefined names)
+        run: ruff check --select E9,F63,F7,F82 .
+      - name: Corpus validates
+        run: python scripts/validate_corpus.py
+      - name: Reference scores reproduce, with every episode accounted for
+        run: python scripts/reproduce_scores.py
+      - name: Every task regenerates byte for byte from inputs/
+        run: python scripts/reproduce_corpus.py
+      - name: Tests (scorer, semantics, conformance with the PRIME runtime, reproducibility)
+        run: python -m pytest -q
