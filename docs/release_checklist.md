@@ -21,7 +21,7 @@ Visibility of the repositories and the dataset is the owner's decision; no step 
 
 ## GitHub code repository
 
-- [ ] `gh repo create <owner>/suffice --private --source . --push` from the code directory (ask before creating)
+- [ ] `gh repo create <owner>/SUFFICE --private --source . --push` from the code directory (ask before creating)
 - [ ] no release, tag, or DOI yet
 
 ## Anonymous review package (ARR/NAACL)
