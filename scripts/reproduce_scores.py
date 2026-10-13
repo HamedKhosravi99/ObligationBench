@@ -28,8 +28,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench.scoring import score  # noqa: E402
-from obligationbench.tasks import load_tasks  # noqa: E402
+from suffice.scoring import score  # noqa: E402
+from suffice.tasks import load_tasks  # noqa: E402
 
 # agent file -> (name in the paper, expected false authorization %, premature %, utility, emission %, evidence value)
 EXPECTED = {

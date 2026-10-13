@@ -1,4 +1,4 @@
-"""Command-line interface: ``obligationbench <command>`` or ``python -m obligationbench``.
+"""Command-line interface: ``suffice <command>`` or ``python -m suffice``.
 
 evaluate   score a predictions file against a task file or dataset split
 validate   check a corpus (counts, structure, reference labels)
@@ -22,7 +22,7 @@ from .scoring import PredictionError, format_result, score, supported
 from .tasks import load_tasks
 from .validate import validate_corpus, validate_tasks
 
-log = logging.getLogger("obligationbench")
+log = logging.getLogger("suffice")
 
 
 def _cmd_evaluate(a: argparse.Namespace) -> int:
@@ -102,9 +102,9 @@ def _cmd_generate(a: argparse.Namespace) -> int:
 
 
 def main(argv: Optional[List[str]] = None) -> int:
-    ap = argparse.ArgumentParser(prog="obligationbench", description=__doc__,
+    ap = argparse.ArgumentParser(prog="suffice", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--version", action="version", version="obligationbench %s" % __version__)
+    ap.add_argument("--version", action="version", version="suffice %s" % __version__)
     ap.add_argument("-v", "--verbose", action="store_true")
     sub = ap.add_subparsers(dest="cmd", required=True)
 

@@ -1,10 +1,10 @@
-"""Loading ObligationBench tasks.
+"""Loading SUFFICE tasks.
 
 A task is a JSON object in the benchmark's native format (one file per task under
 ``bench/instances_v2/<domain>/<split>/`` in the generator's output, or the
 ``task_json`` field of a dataset row). This module loads tasks from a task file, a
 directory of task files, or a ``.jsonl`` dataset file, and exposes the few accessors
-the evaluator needs. The scoring code is in :mod:`obligationbench.scoring`.
+the evaluator needs. The scoring code is in :mod:`suffice.scoring`.
 """
 from __future__ import annotations
 

@@ -20,7 +20,7 @@ Malformed records (missing `task_id`, `stated` not a list, unknown conclusion id
 ## Scoring
 
 ```bash
-obligationbench evaluate --tasks data/balanced.jsonl --predictions predictions.jsonl --by domain --output results.json
+suffice evaluate --tasks data/balanced.jsonl --predictions predictions.jsonl --by domain --output results.json
 ```
 
 For every task the scorer replays the actions through `RecordEnv`, which settles a check only when the agent read the check's true field (the predicate is evaluated on the returned value) or, on text tasks, when an attestation was accepted. It never uses an agent's own account of its evidence.
@@ -37,7 +37,7 @@ For every task the scorer replays the actions through `RecordEnv`, which settles
 | mean tool calls, mean distinct calls | per task: every recorded action, and the distinct call classes among them (tool and arguments, and for `attest_atom` whether its source text had been read), which is what PRIME's budget charges, since its executor serves an identical repeat from a cache |
 | resolver error (%) | text tasks: accepted attestations whose value differs from the reference value; also the share of episodes with at least one such attestation |
 
-The per-task rows (`--rows`) carry `record`, `family`, `domain`, `topology`, and every endpoint, so family-level contrasts can be computed with `obligationbench.stats` (see below).
+The per-task rows (`--rows`) carry `record`, `family`, `domain`, `topology`, and every endpoint, so family-level contrasts can be computed with `suffice.stats` (see below).
 
 ## Text-evidence tasks
 
@@ -57,4 +57,4 @@ Document which setting a reported number used; the paper's main results use the 
 
 ## Statistics
 
-The unit of inference is the template family. `obligationbench.stats` (the paper's implementation) provides family-mean paired differences, a sign-flip randomization test stratified by domain and topology, a hierarchical bootstrap interval (families, then records), the exact McNemar sensitivity test, TOST equivalence, and Holm correction. `obligationbench.scoring.paired_rows(result_a, result_b, key)` pairs two scored results for these functions. Pooled rates in the tables are not the family-mean contrasts.
+The unit of inference is the template family. `suffice.stats` (the paper's implementation) provides family-mean paired differences, a sign-flip randomization test stratified by domain and topology, a hierarchical bootstrap interval (families, then records), the exact McNemar sensitivity test, TOST equivalence, and Holm correction. `suffice.scoring.paired_rows(result_a, result_b, key)` pairs two scored results for these functions. Pooled rates in the tables are not the family-mean contrasts.

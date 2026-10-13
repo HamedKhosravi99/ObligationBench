@@ -1,6 +1,6 @@
 # Methodology
 
-ObligationBench measures one thing: whether an agent that must justify a conclusion from checks on a record states only conclusions its checks support, and how much useful, supported output it produces under a budget of checks.
+SUFFICE measures one thing: whether an agent that must justify a conclusion from checks on a record states only conclusions its checks support, and how much useful, supported output it produces under a budget of checks.
 
 ## The task
 

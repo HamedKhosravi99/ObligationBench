@@ -29,8 +29,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench.generation.record_tasks import slice_into  # noqa: E402
-from obligationbench.tasks import DOMAINS  # noqa: E402
+from suffice.generation.record_tasks import slice_into  # noqa: E402
+from suffice.tasks import DOMAINS  # noqa: E402
 
 # Every path the record generator (all modes) and the text generator read, logged by
 # instrumenting get_path and slice_into over a full regeneration, plus "affected",

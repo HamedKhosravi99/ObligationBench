@@ -1,4 +1,4 @@
-"""Scoring ObligationBench predictions.
+"""Scoring SUFFICE predictions.
 
 The endpoints are those of the paper (Section 5, "Scoring"), computed from executable
 predicates on the stored record and from a replay of the agent's recorded actions;
@@ -274,7 +274,7 @@ def format_result(result: Dict[str, Any]) -> str:
 
 def paired_rows(result_a: Dict[str, Any], result_b: Dict[str, Any], key: str = "utility") -> List[Dict[str, Any]]:
     """Pair two scored results task by task for the family-level statistics in
-    :mod:`obligationbench.stats` (rows with record, family, domain, topology, a, b)."""
+    :mod:`suffice.stats` (rows with record, family, domain, topology, a, b)."""
     b = {r["task_id"]: r for r in result_b["rows"]}
     out = []
     for r in result_a["rows"]:

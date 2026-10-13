@@ -4,10 +4,10 @@ import random
 
 import pytest
 
-from obligationbench.env import RecordEnv
-from obligationbench.scoring import holds, reference_values, supported
-from obligationbench.tasks import levels
-from obligationbench.validate import validate_task
+from suffice.env import RecordEnv
+from suffice.scoring import holds, reference_values, supported
+from suffice.tasks import levels
+from suffice.validate import validate_task
 
 
 def _all(tasks):
@@ -108,7 +108,7 @@ def test_text_tasks_have_readable_sources_and_hidden_twins(tasks):
         rec = t["records"][t["seed"]]
         # the structured twins are withheld from the embedded record
         for path in ("protocolSection.eligibilityModule.minimumAge", "protocolSection.eligibilityModule.sex", "affected.0.ranges"):
-            v, found = __import__("obligationbench.tasks", fromlist=["resolve_field_path"]).resolve_field_path(rec, path)
+            v, found = __import__("suffice.tasks", fromlist=["resolve_field_path"]).resolve_field_path(rec, path)
             assert not found, (t["id"], path)
 
 

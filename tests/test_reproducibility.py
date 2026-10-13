@@ -8,11 +8,11 @@ import sys
 
 import pytest
 
-from obligationbench.export import check_round_trip, row_to_task, task_to_row
-from obligationbench.tasks import load_tasks
+from suffice.export import check_round_trip, row_to_task, task_to_row
+from suffice.tasks import load_tasks
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BENCH = os.environ.get("OBLIGATIONBENCH_BENCH_DIR")  # the generator's output root with the original task files
+BENCH = os.environ.get("SUFFICE_BENCH_DIR")  # the generator's output root with the original task files
 
 
 def test_round_trip_toy(toy_task):
@@ -30,7 +30,7 @@ def test_round_trip_published(rows):
             assert r2 == r, r["task_id"]
 
 
-@pytest.mark.skipif(not BENCH, reason="set OBLIGATIONBENCH_BENCH_DIR to the original task files to compare")
+@pytest.mark.skipif(not BENCH, reason="set SUFFICE_BENCH_DIR to the original task files to compare")
 def test_published_tasks_identical_to_original_files(rows):
     native = {}
     for p in glob.glob(os.path.join(BENCH, "instances_v2", "*", "*", "*.json")) + glob.glob(os.path.join(BENCH, "instances_fdaaa", "fdaaa-*.json")):
@@ -69,7 +69,7 @@ def test_corpus_regenerates_from_shipped_inputs(hash_seed):
     randomizes per process, so runs in separate processes enumerated different
     families; two seeds check that the output no longer depends on it."""
     env = dict(os.environ, PYTHONHASHSEED=hash_seed)
-    env.pop("OBLIGATIONBENCH_BENCH_DIR", None)
+    env.pop("SUFFICE_BENCH_DIR", None)
     p = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "reproduce_corpus.py")],
                        env=env, capture_output=True, text=True)
     assert p.returncode == 0, p.stdout[-3000:] + p.stderr[-3000:]

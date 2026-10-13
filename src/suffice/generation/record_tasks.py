@@ -1,7 +1,7 @@
 # Vendored from bench/generate_record_instances.py of the PRIME code (the generator of the
 # published corpus; see docs/benchmark_generation.md for its version history). Changes made for this
 # package: (1) the import lines point at the package's copies of the predicate grammar and the task
-# schema; (2) the harvest and output directories come from OBLIGATIONBENCH_BENCH_DIR (default ./bench)
+# schema; (2) the harvest and output directories come from SUFFICE_BENCH_DIR (default ./bench)
 # instead of the script's own directory; (3) verify() executes resolvers with the package's RecordEnv
 # instead of the PRIME runtime's ToolExecutor and gold ledger (same predicate code, same fail-closed
 # rule: every field-reading check must execute to its stored reference value or the task is dropped).
@@ -10,7 +10,7 @@
 #!/usr/bin/env python3
 """Template-family instance generator (EXECUTION_PLAN v5, Part 4 / W0.4).
 
-Generates ObligationBench record-domain instances from the harvested public
+Generates SUFFICE record-domain instances from the harvested public
 records (bench/harvest_records.py), under the frozen v5 design:
 
   * >=16 branching + >=8 nested template FAMILIES per domain, enumerated
@@ -55,7 +55,7 @@ import sys
 import zlib
 from typing import Any, Dict, List, Optional, Tuple
 
-HERE = os.environ.get("OBLIGATIONBENCH_BENCH_DIR", os.path.abspath("bench"))
+HERE = os.environ.get("SUFFICE_BENCH_DIR", os.path.abspath("bench"))
 
 from ..predicates import evaluate_predicate, format_predicate_rule  # noqa: E402
 from ..instance_schema import SchemaError, load_instance  # noqa: E402

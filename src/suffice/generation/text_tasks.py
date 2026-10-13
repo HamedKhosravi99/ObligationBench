@@ -1,5 +1,5 @@
 # Vendored from bench/generate_text_instances.py of the PRIME code; only the import lines and the
-# bench directory (OBLIGATIONBENCH_BENCH_DIR) were changed. See docs/benchmark_generation.md.
+# bench directory (SUFFICE_BENCH_DIR) were changed. See docs/benchmark_generation.md.
 #!/usr/bin/env python3
 """The text-evidence split (heldout_text): atoms whose evidence is free text
 and whose resolver is the model.
@@ -33,7 +33,7 @@ import re
 import sys
 from typing import Any, Dict, List, Optional, Tuple
 
-HERE = os.environ.get("OBLIGATIONBENCH_BENCH_DIR", os.path.abspath("bench"))
+HERE = os.environ.get("SUFFICE_BENCH_DIR", os.path.abspath("bench"))
 
 from .record_tasks import get_path, slice_into, SEED, OUT, format_predicate_rule  # noqa: E402
 from ..instance_schema import load_instance  # noqa: E402

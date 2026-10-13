@@ -16,9 +16,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench.export import row_to_task  # noqa: E402
-from obligationbench.tasks import load_tasks  # noqa: E402
-from obligationbench.validate import validate_corpus, validate_tasks  # noqa: E402
+from suffice.export import row_to_task  # noqa: E402
+from suffice.tasks import load_tasks  # noqa: E402
+from suffice.validate import validate_corpus, validate_tasks  # noqa: E402
 
 NATIVE = {"balanced": "heldout_balanced", "natural": "heldout_natural", "dev": "dev", "val": "val",
           "locator": "heldout_locator", "onebranch": "heldout_onebranch", "text": "heldout_text"}

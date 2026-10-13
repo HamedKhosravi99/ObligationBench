@@ -9,7 +9,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench import RecordEnv, load_tasks, score_task, supported  # noqa: E402
+from suffice import RecordEnv, load_tasks, score_task, supported  # noqa: E402
 
 tasks = load_tasks(os.path.join(ROOT, "data", "text.jsonl"))
 task = next(t for t in tasks.values() if t["domain"].startswith("clinical"))

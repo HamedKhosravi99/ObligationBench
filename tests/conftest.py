@@ -7,9 +7,9 @@ import pytest
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench.tasks import load_tasks  # noqa: E402
+from suffice.tasks import load_tasks  # noqa: E402
 
-DATA = os.environ.get("OBLIGATIONBENCH_DATA", os.path.join(ROOT, "data"))
+DATA = os.environ.get("SUFFICE_DATA", os.path.join(ROOT, "data"))
 CONFIGS = ("balanced", "natural", "dev", "val", "locator", "onebranch", "text", "fdaaa")
 
 

@@ -15,9 +15,9 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench import RecordEnv, established, load_tasks, score  # noqa: E402
-from obligationbench.scoring import format_result  # noqa: E402
-from obligationbench.tasks import levels  # noqa: E402
+from suffice import RecordEnv, established, load_tasks, score  # noqa: E402
+from suffice.scoring import format_result  # noqa: E402
+from suffice.tasks import levels  # noqa: E402
 
 BUDGET = 20
 
@@ -50,4 +50,4 @@ with open(out, "w", encoding="utf-8") as fh:
 print("wrote %d predictions to %s\n" % (len(preds), out))
 result = score(tasks, preds, by="domain")
 print(format_result(result))
-print("\nsame thing from the command line:\n  obligationbench evaluate --tasks data/val.jsonl --predictions examples/route_reader_val.jsonl --by domain")
+print("\nsame thing from the command line:\n  suffice evaluate --tasks data/val.jsonl --predictions examples/route_reader_val.jsonl --by domain")

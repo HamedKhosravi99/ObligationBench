@@ -1,4 +1,4 @@
-"""Integrity checks for a corpus of ObligationBench tasks.
+"""Integrity checks for a corpus of SUFFICE tasks.
 
 ``validate_tasks`` checks every task's structure with the original schema validator
 and the benchmark's semantic invariants; ``validate_corpus`` checks the published

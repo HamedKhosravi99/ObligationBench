@@ -1,4 +1,4 @@
-# ObligationBench
+# SUFFICE
 
 A benchmark of evidence-based review tasks for LLM agents, with a deterministic scorer and the generator that built it. It accompanies the paper *PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents* (under review) and is usable without PRIME.
 
@@ -15,14 +15,14 @@ Each task gives an agent one real public record (a vulnerability advisory, a tri
 ## Install
 
 ```bash
-pip install -e .            # the package and the obligationbench command
+pip install -e .            # the package and the suffice command
 pip install -e .[dev]       # plus pytest, datasets, huggingface_hub
 ```
 
 ## Use
 
 ```python
-from obligationbench import load_tasks, RecordEnv, score
+from suffice import load_tasks, RecordEnv, score
 
 tasks = load_tasks("data/balanced.jsonl")          # {task_id: task}
 task = tasks["sec-v2-0114"]
@@ -36,10 +36,10 @@ print(score(tasks, predictions)["overall"])
 ```
 
 ```bash
-obligationbench evaluate --tasks data/balanced.jsonl --predictions predictions.jsonl --by domain --output results.json
-obligationbench validate --split heldout_balanced=data/balanced.jsonl --split heldout_natural=data/natural.jsonl
-obligationbench inspect --tasks data/balanced.jsonl sec-v2-0114 --labels
-obligationbench generate records -- --help
+suffice evaluate --tasks data/balanced.jsonl --predictions predictions.jsonl --by domain --output results.json
+suffice validate --split heldout_balanced=data/balanced.jsonl --split heldout_natural=data/natural.jsonl
+suffice inspect --tasks data/balanced.jsonl sec-v2-0114 --labels
+suffice generate records -- --help
 ```
 
 Prediction format and endpoint definitions: [docs/evaluation_protocol.md](docs/evaluation_protocol.md). Row schema: [docs/data_schema.md](docs/data_schema.md). Examples in [examples/](examples/): load and inspect a task, evaluate a baseline agent, regenerate tasks.
@@ -48,7 +48,7 @@ Prediction format and endpoint definitions: [docs/evaluation_protocol.md](docs/e
 
 | Path | Contents |
 |---|---|
-| `src/obligationbench/` | `tasks.py` (loading), `env.py` (the evidence actions and the ledger), `scoring.py` (endpoints), `stats.py` (family-level statistics), `export.py` (native task <-> dataset row), `validate.py` (integrity checks), `cli.py`; `predicates.py`, `instance_schema.py`, `closure.py` (original PRIME modules, vendored); `generation/` (the generators, vendored) |
+| `src/suffice/` | `tasks.py` (loading), `env.py` (the evidence actions and the ledger), `scoring.py` (endpoints), `stats.py` (family-level statistics), `export.py` (native task <-> dataset row), `validate.py` (integrity checks), `cli.py`; `predicates.py`, `instance_schema.py`, `closure.py` (original PRIME modules, vendored); `generation/` (the generators, vendored) |
 | `data/` | the dataset files (`balanced.jsonl`, `natural.jsonl`, `dev.jsonl`, `val.jsonl`, `locator.jsonl`, `onebranch.jsonl`, `text.jsonl`, `fdaaa.jsonl`), `manifest.json` with every task's SHA-256, `reference_predictions/`, `LICENSE` (CC BY 4.0), `NOTICE.md` (source terms) |
 | `inputs/` | the harvest of 2026-08-01 that the generators read, reduced to the fields they use (`harvest/`, 10 MB, with SHA-256 sums of the full and reduced files), and the generator's manifest of families and splits |
 | `configs/` | `corpus.yaml` (the generator's settings, for reference), `evaluation.yaml` (the scoring definitions) |

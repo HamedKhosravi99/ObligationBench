@@ -4,8 +4,8 @@ from collections import Counter
 
 import pytest
 
-from obligationbench.export import ROW_FIELDS, row_to_task, task_sha256
-from obligationbench.tasks import domain_of, family_of
+from suffice.export import ROW_FIELDS, row_to_task, task_sha256
+from suffice.tasks import domain_of, family_of
 
 PRIMARY = {"balanced": 480, "natural": 218, "dev": 192, "val": 48}
 VARIANTS = {"locator": 480, "onebranch": 240, "text": 240, "fdaaa": 319}
@@ -94,7 +94,7 @@ def test_row_schema_and_hashes(rows, manifest):
 
 
 def test_evaluator_labels_consistent_with_task(rows):
-    from obligationbench.scoring import supported
+    from suffice.scoring import supported
     for cfg, rs in rows.items():
         for r in rs:
             task = row_to_task(r)

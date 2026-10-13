@@ -1,8 +1,8 @@
 """The scorer on a hand-written task: every endpoint, every edge case."""
 import pytest
 
-from obligationbench.env import RecordEnv
-from obligationbench.scoring import (PredictionError, established, holds, score, score_task,
+from suffice.env import RecordEnv
+from suffice.scoring import (PredictionError, established, holds, score, score_task,
                                      supported, summarize, validate_prediction)
 
 

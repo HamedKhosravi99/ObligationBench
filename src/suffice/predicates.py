@@ -1,4 +1,4 @@
-"""The closed predicate grammar of ObligationBench checks.
+"""The closed predicate grammar of SUFFICE checks.
 
 A check's rule string has the form
 "record_predicate:<predicate_type>:<json-encoded required value>" and is evaluated by

@@ -1,6 +1,6 @@
 # Benchmark generation
 
-The generator is the authentic implementation, vendored from the PRIME code into `src/obligationbench/generation/`:
+The generator is the authentic implementation, vendored from the PRIME code into `src/suffice/generation/`:
 
 | Module | Origin | What it does |
 |---|---|---|
@@ -8,17 +8,17 @@ The generator is the authentic implementation, vendored from the PRIME code into
 | `text_tasks.py` | `bench/generate_text_instances.py` | the text-evidence variant: clinical and security tasks whose checks are judgments on a free-text field with structured twins withheld from the record |
 | `harvest.py` | `bench/harvest_records.py` | live retrieval of source records with provenance (URL, timestamp, SHA-256); key-free public APIs |
 
-Changes made for packaging are listed at the top of each file: import lines, the bench directory (`OBLIGATIONBENCH_BENCH_DIR`), and `verify()`, which executes resolvers with the package's `RecordEnv` instead of the PRIME runtime (same predicate code, same rule). The verify step was checked by validating every published task with it (`obligationbench validate`): all execute to their stored reference values.
+Changes made for packaging are listed at the top of each file: import lines, the bench directory (`SUFFICE_BENCH_DIR`), and `verify()`, which executes resolvers with the package's `RecordEnv` instead of the PRIME runtime (same predicate code, same rule). The verify step was checked by validating every published task with it (`suffice validate`): all execute to their stored reference values.
 
 ## Running it
 
 ```bash
-export OBLIGATIONBENCH_BENCH_DIR=/path/to/bench        # holds harvest/<domain>/records.jsonl; tasks go to instances_v2/
-obligationbench generate records                          # primary corpus (default quotas: see configs/corpus.yaml)
-obligationbench generate records -- --one-branch-per-domain 60 --seq-base 9000
-obligationbench generate records -- --locator-per-domain 120
-obligationbench generate text
-obligationbench generate harvest                          # live retrieval; not reproducible
+export SUFFICE_BENCH_DIR=/path/to/bench        # holds harvest/<domain>/records.jsonl; tasks go to instances_v2/
+suffice generate records                          # primary corpus (default quotas: see configs/corpus.yaml)
+suffice generate records -- --one-branch-per-domain 60 --seq-base 9000
+suffice generate records -- --locator-per-domain 120
+suffice generate text
+suffice generate harvest                          # live retrieval; not reproducible
 ```
 
 Three distinct uses:

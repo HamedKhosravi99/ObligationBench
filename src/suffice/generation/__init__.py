@@ -1,11 +1,11 @@
-"""The ObligationBench generators, vendored from the PRIME code (see each file's header
+"""The SUFFICE generators, vendored from the PRIME code (see each file's header
 and docs/benchmark_generation.md).
 
 ``run_generator(name, args)`` runs one of them with the given command-line arguments:
 ``records`` (the primary corpus; with ``--locator-per-domain`` or
 ``--one-branch-per-domain`` the derived variants), ``text`` (the text-evidence split),
 ``harvest`` (live retrieval of source records; not reproducible). All read and write
-under the directory named by OBLIGATIONBENCH_BENCH_DIR (default ./bench): harvest/
+under the directory named by SUFFICE_BENCH_DIR (default ./bench): harvest/
 holds the source records, instances_v2/ the generated tasks.
 """
 from __future__ import annotations

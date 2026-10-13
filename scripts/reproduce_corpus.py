@@ -29,7 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench.tasks import DOMAINS, load_tasks  # noqa: E402
+from suffice.tasks import DOMAINS, load_tasks  # noqa: E402
 
 NATIVE = {"balanced": "heldout_balanced", "natural": "heldout_natural", "dev": "dev", "val": "val",
           "locator": "heldout_locator", "onebranch": "heldout_onebranch", "text": "heldout_text"}
@@ -56,7 +56,7 @@ def main(argv=None) -> int:
         p = os.path.join(a.data, cfg + ".jsonl")
         if os.path.exists(p):
             published[native] = {tid: _hash(t) for tid, t in load_tasks(p).items()}
-    tmp = tempfile.mkdtemp(prefix="obligationbench-regen-")
+    tmp = tempfile.mkdtemp(prefix="suffice-regen-")
     os.symlink(os.path.abspath(os.path.join(a.bench, "harvest")), os.path.join(tmp, "harvest"))
     inst = os.path.join(tmp, "instances_v2")
     os.makedirs(inst)
@@ -68,13 +68,13 @@ def main(argv=None) -> int:
                 with open(os.path.join(d, tid + ".json"), "w", encoding="utf-8") as fh:
                     json.dump(t, fh, indent=1, sort_keys=True, default=str)
         shutil.copy2(a.manifest, os.path.join(inst, "manifest.json"))
-    os.environ["OBLIGATIONBENCH_BENCH_DIR"] = tmp
+    os.environ["SUFFICE_BENCH_DIR"] = tmp
     import importlib
-    import obligationbench.generation.record_tasks as rt
-    import obligationbench.generation.text_tasks as tt
+    import suffice.generation.record_tasks as rt
+    import suffice.generation.text_tasks as tt
     importlib.reload(rt)
     importlib.reload(tt)
-    from obligationbench.generation import run_generator
+    from suffice.generation import run_generator
     if a.what in ("all", "primary"):
         run_generator("records", [])
     if a.what in ("all", "variants"):

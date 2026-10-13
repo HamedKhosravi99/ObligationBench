@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Upload the prepared dataset directory to a PRIVATE Hugging Face dataset repository.
 
-    python scripts/publish_hf_private.py --dataset-dir dist/obligationbench-dataset \
-        --repo <namespace>/ObligationBench --confirm
+    python scripts/publish_hf_private.py --dataset-dir dist/suffice-dataset \
+        --repo <namespace>/SUFFICE --confirm
 
 Without --confirm the script only checks the inputs and prints what it would do.
 It never makes a repository public and never changes an existing repository's
@@ -23,7 +23,7 @@ import sys
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dataset-dir", required=True)
-    ap.add_argument("--repo", required=True, help="<namespace>/ObligationBench")
+    ap.add_argument("--repo", required=True, help="<namespace>/SUFFICE")
     ap.add_argument("--confirm", action="store_true", help="actually upload; otherwise dry run")
     a = ap.parse_args(argv)
 
@@ -67,7 +67,7 @@ def main(argv=None) -> int:
         print("created PRIVATE repository", a.repo)
 
     commit = api.upload_folder(folder_path=d, repo_id=a.repo, repo_type="dataset",
-                               commit_message="ObligationBench %s" % man.get("version", ""),
+                               commit_message="SUFFICE %s" % man.get("version", ""),
                                ignore_patterns=["__pycache__/*", "*.pyc", ".DS_Store"])
     rev = getattr(commit, "oid", None) or str(commit)
     print("uploaded; commit", rev)

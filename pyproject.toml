@@ -3,9 +3,9 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "obligationbench"
+name = "suffice"
 version = "1.0.0"
-description = "ObligationBench: evidence-based review tasks for LLM agents, with an executable scorer and the benchmark generator"
+description = "SUFFICE: evidence-based review tasks for LLM agents, with an executable scorer and the benchmark generator"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
@@ -23,13 +23,13 @@ hf = ["datasets>=2.14", "huggingface_hub>=0.20"]
 dev = ["pytest>=7", "datasets>=2.14", "huggingface_hub>=0.20"]
 
 [project.scripts]
-obligationbench = "obligationbench.cli:main"
+suffice = "suffice.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-obligationbench = ["task_schema.json"]
+suffice = ["task_schema.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

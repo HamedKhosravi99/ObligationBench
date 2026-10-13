@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build the Hugging Face dataset directory of ObligationBench from the native task
+"""Build the Hugging Face dataset directory of SUFFICE from the native task
 files, and the data/ directory of this repository (the same files).
 
-    python scripts/prepare_hf_dataset.py --bench PATH/TO/bench --out dist/obligationbench-dataset
+    python scripts/prepare_hf_dataset.py --bench PATH/TO/bench --out dist/suffice-dataset
 
 ``--bench`` is the generator's output root: it holds instances_v2/<domain>/<split>/*.json
 (the primary corpus and the derived variants) and instances_fdaaa/fdaaa-*.json. Every
@@ -25,10 +25,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench import __version__  # noqa: E402
-from obligationbench.export import row_to_task, task_to_row  # noqa: E402
-from obligationbench.tasks import DOMAINS, PRIMARY_SPLITS, VARIANT_SPLITS, load_tasks  # noqa: E402
-from obligationbench.validate import (EXPECTED_FDAAA, EXPECTED_PRIMARY, EXPECTED_VARIANTS,  # noqa: E402
+from suffice import __version__  # noqa: E402
+from suffice.export import row_to_task, task_to_row  # noqa: E402
+from suffice.tasks import DOMAINS, PRIMARY_SPLITS, VARIANT_SPLITS, load_tasks  # noqa: E402
+from suffice.validate import (EXPECTED_FDAAA, EXPECTED_PRIMARY, EXPECTED_VARIANTS,  # noqa: E402
                                       parent_map, validate_corpus, validate_tasks)
 
 CONFIG_FILE = {"heldout_balanced": "balanced", "heldout_natural": "natural", "dev": "dev", "val": "val",
@@ -99,8 +99,8 @@ def main(argv=None) -> int:
     with open(os.path.join(a.out, "manifest.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, indent=1, sort_keys=True)
     # the scoring package travels with the data so that the dataset directory scores on its own
-    pkg_src = os.path.join(ROOT, "src", "obligationbench")
-    pkg_dst = os.path.join(a.out, "obligationbench")
+    pkg_src = os.path.join(ROOT, "src", "suffice")
+    pkg_dst = os.path.join(a.out, "suffice")
     if os.path.isdir(pkg_dst):
         shutil.rmtree(pkg_dst)
     shutil.copytree(pkg_src, pkg_dst, ignore=shutil.ignore_patterns("__pycache__", "generation"))

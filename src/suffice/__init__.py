@@ -1,8 +1,8 @@
-"""ObligationBench: a benchmark of evidence-based review tasks for LLM agents.
+"""SUFFICE: a benchmark of evidence-based review tasks for LLM agents.
 
 Load tasks, let an agent act on them through ``RecordEnv``, and score its stated
 conclusions against the intended standard with executable predicates, with no
-LLM judge. See ``obligationbench --help`` and the docs/ directory.
+LLM judge. See ``suffice --help`` and the docs/ directory.
 """
 from __future__ import annotations
 

@@ -5,13 +5,13 @@ ARR submissions are double-anonymous. A private GitHub or Hugging Face URL is no
 ## Build
 
 ```bash
-scripts/prepare_anonymous_package.sh dist/obligationbench-dataset dist/anonymous
+scripts/prepare_anonymous_package.sh dist/suffice-dataset dist/anonymous
 ```
 
 produces
 
-* `anonymous/obligationbench-code.zip`: this repository (code, tests, docs, examples, scripts) without `.git`, with `CITATION.cff` and the licenses carrying "authors withheld", and with every URL to an identity-linked repository removed;
-* `anonymous/obligationbench-data.zip`: the dataset directory (data, manifest, card, licenses, the scoring package, reference predictions).
+* `anonymous/suffice-code.zip`: this repository (code, tests, docs, examples, scripts) without `.git`, with `CITATION.cff` and the licenses carrying "authors withheld", and with every URL to an identity-linked repository removed;
+* `anonymous/suffice-data.zip`: the dataset directory (data, manifest, card, licenses, the scoring package, reference predictions).
 
 The script then scans both archives with `scripts/check_anonymity.py` and refuses to finish if any author name, e-mail, local path, cluster name, account, or token survives.
 

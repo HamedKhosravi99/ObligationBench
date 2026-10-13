@@ -1,4 +1,4 @@
-# Scoring configuration of ObligationBench (fixed by the paper; the scorer implements it).
+# Scoring configuration of SUFFICE (fixed by the paper; the scorer implements it).
 utility_by_level: {1: 33.333, 2: 66.667, 3: 100.0}     # supported utility of the strongest supported stated conclusion; 0 if none
 endpoints:
   false_authorization: share of tasks on which some stated conclusion is not supported by the record

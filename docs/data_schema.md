@@ -1,6 +1,6 @@
 # Data schema (schema version 1.0)
 
-Two representations exist. The **native task** is the JSON object the generator writes and the scorer reads (`src/obligationbench/task_schema.json` gives its JSON Schema; `instance_schema.py` validates it). The **dataset row** is the flattened record published on Hugging Face and in `data/*.jsonl`; it carries the native task verbatim in `task_json`, so `obligationbench.export.row_to_task(row)` recovers it exactly and `task_to_row(task, split)` produces the row (round trips are tested).
+Two representations exist. The **native task** is the JSON object the generator writes and the scorer reads (`src/suffice/task_schema.json` gives its JSON Schema; `instance_schema.py` validates it). The **dataset row** is the flattened record published on Hugging Face and in `data/*.jsonl`; it carries the native task verbatim in `task_json`, so `suffice.export.row_to_task(row)` recovers it exactly and `task_to_row(task, split)` produces the row (round trips are tested).
 
 ## Native task
 
@@ -52,7 +52,7 @@ The check predicate grammar (`attest` rules of the form `record_predicate:<type>
 | `record_json` | JSON string | through tools | the record snapshot |
 | `task_json` | JSON string | contains labels | the native task; strip `gold_value` before showing it to an agent, or use `specification_view` |
 
-`obligationbench.export.agent_visible(row)` drops the evaluator-only fields and the record.
+`suffice.export.agent_visible(row)` drops the evaluator-only fields and the record.
 
 ## Prediction record
 

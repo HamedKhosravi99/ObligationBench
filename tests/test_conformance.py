@@ -27,8 +27,8 @@ import os
 
 import pytest
 
-from obligationbench.env import RecordEnv
-from obligationbench.scoring import established
+from suffice.env import RecordEnv
+from suffice.scoring import established
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIXTURE = os.path.join(ROOT, "tests", "fixtures", "prime_conformance.json.gz")

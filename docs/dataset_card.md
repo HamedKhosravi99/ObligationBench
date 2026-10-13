@@ -2,7 +2,7 @@
 license: cc-by-4.0
 language:
 - en
-pretty_name: ObligationBench
+pretty_name: SUFFICE
 size_categories:
 - 1K<n<10K
 task_categories:
@@ -59,9 +59,9 @@ configs:
     path: data/fdaaa.jsonl
 ---
 
-# ObligationBench
+# SUFFICE
 
-ObligationBench tests whether an LLM agent completes the checks a conclusion requires before it states the conclusion. Each task gives the agent one real public record, a request about it, three conclusions of increasing strength, and the checks each conclusion needs. The agent reads fields of the record with tools and states the strongest conclusion it can justify. Which checks suffice for each conclusion is fixed in the task before any record is read, and the true value of every check is computed from the record, so scoring runs code: no language model or person judges an answer.
+SUFFICE tests whether an LLM agent completes the checks a conclusion requires before it states the conclusion. Each task gives the agent one real public record, a request about it, three conclusions of increasing strength, and the checks each conclusion needs. The agent reads fields of the record with tools and states the strongest conclusion it can justify. Which checks suffice for each conclusion is fixed in the task before any record is read, and the true value of every check is computed from the record, so scoring runs code: no language model or person judges an answer.
 
 The benchmark accompanies the paper *PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents* (under review). It is usable without PRIME: any agent that can read record fields and state conclusions can be scored, and the scorer makes no assumption about how the agent decided what to read or what to state.
 
@@ -93,7 +93,7 @@ The **primary corpus** is 938 tasks in four splits. The **derived variants** are
 
 ```python
 from datasets import load_dataset
-ds = load_dataset("<namespace>/ObligationBench", "balanced", split="test")
+ds = load_dataset("<namespace>/SUFFICE", "balanced", split="test")
 ```
 
 Per-domain counts: balanced 120 per domain; natural 60/60/60/38 (security, clinical, drugsafety, financial); dev 48 per domain; val 12 per domain; locator 120 per domain; onebranch 60 per domain; text 120 clinical and 120 security; fdaaa 319 (domain `fdaaa_ctgov`).
@@ -119,15 +119,15 @@ Every row carries the complete task in its native format (`task_json`) plus flat
 | `generator_seed`, `generator_version`, `schema_version`, `task_sha256` | provenance; `manifest.json` lists every task's hash |
 | `task_json` | the complete native task |
 
-> **Evaluator-only fields.** Rows carry the hidden reference values (`reference_atom_values`, `reference_supported_conclusions`, `strongest_supported_level`, `answerable`), the complete native task with its labels (`task_json`), and the full record (`record_json`), because the scorer needs them. Never give a whole row to an evaluated agent: it would see the answers, and the evaluation of evidence acquisition would be void. Give it `specification_view`, which is exactly `RecordEnv(task).agent_view()`, or `obligationbench.export.agent_visible(row)`, and let it reach the record only through the evidence actions, which the scorer replays against the frozen record.
+> **Evaluator-only fields.** Rows carry the hidden reference values (`reference_atom_values`, `reference_supported_conclusions`, `strongest_supported_level`, `answerable`), the complete native task with its labels (`task_json`), and the full record (`record_json`), because the scorer needs them. Never give a whole row to an evaluated agent: it would see the answers, and the evaluation of evidence acquisition would be void. Give it `specification_view`, which is exactly `RecordEnv(task).agent_view()`, or `suffice.export.agent_visible(row)`, and let it reach the record only through the evidence actions, which the scorer replays against the frozen record.
 
 ```python
 import json
 from datasets import load_dataset
-from obligationbench import RecordEnv, score
-from obligationbench.export import row_to_task
+from suffice import RecordEnv, score
+from suffice.export import row_to_task
 
-rows = load_dataset("<namespace>/ObligationBench", "balanced", split="test")
+rows = load_dataset("<namespace>/SUFFICE", "balanced", split="test")
 row = rows[0]
 view = json.loads(row["specification_view"])   # show this to the agent: request, conclusions, checks, routes; no values
 task = row_to_task(row)                        # evaluator side only: holds the labels
@@ -141,10 +141,10 @@ Records change over time. Every task embeds the snapshot it was built from, so r
 
 ## Running an agent and scoring it
 
-The `obligationbench/` package shipped in this directory needs only the Python standard library:
+The `suffice/` package shipped in this directory needs only the Python standard library:
 
 ```python
-from obligationbench import load_tasks, RecordEnv, score
+from suffice import load_tasks, RecordEnv, score
 
 tasks = load_tasks("data/balanced.jsonl")
 env = RecordEnv(tasks["sec-v2-0114"])
@@ -160,16 +160,16 @@ Write one JSON object per task and score:
 ```
 
 ```bash
-python -m obligationbench evaluate --tasks data/balanced.jsonl --predictions my_agent.jsonl --by domain --output results.json
+python -m suffice evaluate --tasks data/balanced.jsonl --predictions my_agent.jsonl --by domain --output results.json
 ```
 
-The scorer replays the actions against the record; it never relies on an agent's own account of what it checked. Endpoints: false authorization (a stated conclusion the record does not support), premature conclusions (stated before the agent's own actions established a route), supported utility (33.3, 66.7, or 100 for the strongest supported stated conclusion, 0 if none), evidence value (the utility the actions established, stated or not), emission rate on answerable tasks, evidence recall, tool calls, and, on text tasks, resolver error (accepted attestations whose value is wrong). The exact definitions are in `obligationbench/scoring.py`.
+The scorer replays the actions against the record; it never relies on an agent's own account of what it checked. Endpoints: false authorization (a stated conclusion the record does not support), premature conclusions (stated before the agent's own actions established a route), supported utility (33.3, 66.7, or 100 for the strongest supported stated conclusion, 0 if none), evidence value (the utility the actions established, stated or not), emission rate on answerable tasks, evidence recall, tool calls, and, on text tasks, resolver error (accepted attestations whose value is wrong). The exact definitions are in `suffice/scoring.py`.
 
 On text tasks the runtime accepts an attestation only when the source text was read and the quote occurs in it verbatim; acceptance does not mean the quote entails the asserted condition, and the reference value comes from a structured field the agent cannot see. There is no human-adjudicated entailment set.
 
 ## Generation
 
-The generator (code repository, `obligationbench generate`) enumerates 30 families per domain (20 branching, 10 nested) from a per-domain pool of field probes, assigns families to dev/val/held-out splits (40/10/50, families held out whole), instantiates each family on records, degrades a route (a false check or unavailable evidence) to create unsupported conclusions, computes the reference values by running every check, and keeps a task only if its checks execute to the stored values. It regenerates every published task byte for byte (the 938 primary tasks and the `onebranch`, `locator`, and `text` variants, 1,898 in all) from the harvest of 2026-08-01, which the code repository ships reduced to the fields the generator reads (`scripts/reproduce_corpus.py`). An earlier version seeded its family enumeration with Python's per-process string hash, so separate runs drew different families; the seed offsets of the published runs were recovered and are pinned. The published task files, each with its record snapshot and SHA-256 hash, remain the artifact of record.
+The generator (code repository, `suffice generate`) enumerates 30 families per domain (20 branching, 10 nested) from a per-domain pool of field probes, assigns families to dev/val/held-out splits (40/10/50, families held out whole), instantiates each family on records, degrades a route (a false check or unavailable evidence) to create unsupported conclusions, computes the reference values by running every check, and keeps a task only if its checks execute to the stored values. It regenerates every published task byte for byte (the 938 primary tasks and the `onebranch`, `locator`, and `text` variants, 1,898 in all) from the harvest of 2026-08-01, which the code repository ships reduced to the fields the generator reads (`scripts/reproduce_corpus.py`). An earlier version seeded its family enumeration with Python's per-process string hash, so separate runs drew different families; the seed offsets of the published runs were recovered and are pinned. The published task files, each with its record snapshot and SHA-256 hash, remain the artifact of record.
 
 ## Intended uses and limitations
 

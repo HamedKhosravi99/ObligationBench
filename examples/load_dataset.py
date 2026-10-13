@@ -4,7 +4,7 @@ see from the evaluator-only labels.
 
 Works from the local data files (no network). With the `datasets` library
 installed, the same rows load from the Hugging Face hub once the dataset is
-published: load_dataset("<namespace>/ObligationBench", "balanced", split="test")."""
+published: load_dataset("<namespace>/SUFFICE", "balanced", split="test")."""
 import json
 import os
 import sys
@@ -12,8 +12,8 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-from obligationbench import RecordEnv, agent_visible, load_tasks  # noqa: E402
-from obligationbench.tasks import iter_rows  # noqa: E402
+from suffice import RecordEnv, agent_visible, load_tasks  # noqa: E402
+from suffice.tasks import iter_rows  # noqa: E402
 
 path = os.path.join(ROOT, "data", "balanced.jsonl")
 rows = list(iter_rows(path))

@@ -1,5 +1,5 @@
-# ObligationBench corpus configuration. These are the values the vendored generator
-# (src/obligationbench/generation/record_tasks.py, text_tasks.py) uses; they are listed
+# SUFFICE corpus configuration. These are the values the vendored generator
+# (src/suffice/generation/record_tasks.py, text_tasks.py) uses; they are listed
 # here for reference and for the reproduction scripts, which pass them on the command
 # line. Changing them does not change the published corpus, which is frozen.
 seed: 20260801

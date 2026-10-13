@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use ObligationBench, please cite the paper below."
-title: "ObligationBench"
+message: "If you use SUFFICE, please cite the paper below."
+title: "SUFFICE"
 version: 1.0.0
 date-released: 2026-10-09
 license: MIT

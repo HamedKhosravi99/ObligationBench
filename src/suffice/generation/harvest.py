@@ -1,5 +1,5 @@
 # Vendored from bench/harvest_records.py of the PRIME code; only the bench directory
-# (OBLIGATIONBENCH_BENCH_DIR) was changed. Live retrieval does not reproduce the frozen harvest.
+# (SUFFICE_BENCH_DIR) was changed. Live retrieval does not reproduce the frozen harvest.
 #!/usr/bin/env python3
 """Bulk record harvest for the v5 benchmark generator (EXECUTION_PLAN v5,
 Part 4 / W0.4). Key-free public sources only; every record stored with
@@ -33,10 +33,10 @@ import urllib.request
 import zipfile
 from typing import Any, Dict, List
 
-HERE = os.environ.get("OBLIGATIONBENCH_BENCH_DIR", os.path.abspath("bench"))
+HERE = os.environ.get("SUFFICE_BENCH_DIR", os.path.abspath("bench"))
 OUT = os.path.join(HERE, "harvest")
 UA = {"User-Agent": os.environ.get(
-    "SEC_USER_AGENT", "ObligationBench research harvester (contact: anon@example.org)")}
+    "SEC_USER_AGENT", "SUFFICE research harvester (contact: anon@example.org)")}
 
 
 def _now() -> str:

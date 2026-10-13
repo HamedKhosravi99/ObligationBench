@@ -51,7 +51,7 @@ Re-running agents needs that repository and a served model; the paper used Qwen2
 
 ## Statistical reproduction
 
-`obligationbench.stats` is the paper's statistics code:
+`suffice.stats` is the paper's statistics code:
 - `paired_rows` pairs two scored results per task;
 - `template_cluster_randomization` gives the family-level sign-flip test;
 - `hierarchical_cluster_bootstrap` gives the 95% interval;
