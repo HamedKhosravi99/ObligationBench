@@ -1,4 +1,4 @@
-"""Publication hygiene: the dataset card's metadata, no credentials, no identifying strings."""
+"""Publication hygiene of the SUFFICE release: the dataset card's metadata, no credentials, no identifying strings."""
 import os
 import re
 

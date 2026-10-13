@@ -1,3 +1,4 @@
+# SUFFICE: Python caches, build outputs, local environment files, and the generator's output directory (bench/)
 __pycache__/
 *.pyc
 .pytest_cache/

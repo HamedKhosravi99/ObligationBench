@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scan a directory (or archives) for identifying strings and credentials.
+"""Scan a directory (or archives) of the SUFFICE release for identifying strings and credentials.
 
     python scripts/check_anonymity.py PATH [PATH ...] [--allow REGEX ...]
 
