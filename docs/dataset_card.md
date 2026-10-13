@@ -177,6 +177,10 @@ Intended: evaluating tool-using LLM agents that must justify conclusions from ch
 
 Limitations: the tasks are one generated review structure (three ordered conclusions, field predicates on one record) over four public-record domains; the conclusion hierarchies and reference standards are fixed by construction and are the benchmark's, not an organization's; the balanced split engineers unsupported conclusions and does not estimate their prevalence in deployed workloads; checks are mechanically decidable except on the text variant, where the model's interpretation of unstructured evidence can be wrong and is scored against a structured proxy; results do not transfer to arbitrary workflows; and a perfect score establishes compliance with the task's standard, not that the standard is correct. The benchmark does not show that any agent is clinically safe, financially compliant, or ready for deployment.
 
+## Personal information
+
+The records are public registry, recall, filing, and advisory data, kept as published. A scan of the released records found 14 e-mail addresses in the text of 15 security advisories. Five belong to people who reported an issue or maintain the affected software, and the rest are vendor security contacts, project mailing lists, or example addresses. Some advisories also credit reporters by name. The trial registrations include no contact persons. No benchmark check reads or tests these details. Please use the data only for research on evidence checking, and do not use it to contact or profile the people named in the records. After publication, removal requests will be handled in future releases.
+
 ## Provenance and licensing
 
 Records were retrieved on 1 August 2026 (FDAAA set: 3 August 2026) from the sources above; `NOTICE.md` gives each source's terms. The benchmark data are released under CC BY 4.0; the embedded records remain subject to their sources' terms (GitHub Advisory Database CC BY 4.0; openFDA public domain; ClinicalTrials.gov and SEC EDGAR public U.S. government information). The scoring code is MIT-licensed.
